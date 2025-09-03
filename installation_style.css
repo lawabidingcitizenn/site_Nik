@@ -194,8 +194,7 @@
     flex-direction: row;
     justify-content: space-between; 
     align-items: center;  
-    margin-left: 80px; 
-    margin-top: 160px;
+    margin: 160px auto 0; 
 }
 
 .installation_materials_left{
@@ -261,13 +260,12 @@
 .installation_our_service{
     width: var(--normal-width);
     height: 725px;
-    margin-left: 80px;
+    margin: 160px auto 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     overflow: visible;
-    margin-top: 160px;
 
 }
 
@@ -337,8 +335,7 @@
     transform 0.8s ease;
     align-items: center;
     height: 1px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin: 0 auto;
 }
 
 .installation_our_service_item .installation_our_service_buttonbox{

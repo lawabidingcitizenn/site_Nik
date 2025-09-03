@@ -241,7 +241,7 @@
   display: flex;
   flex-direction: row;
   gap: 40px; 
-  margin-left: 80px;
+  margin: 0 auto;
 }
 
 .filter_right{
@@ -617,8 +617,7 @@ line-height: 100%;
   flex-direction: row;
   align-items: center; 
   justify-content: space-between;  
-  margin-left: 80px;
-  margin-bottom: 122px; 
+  margin: 0 auto 122px;
 }
 
 .multi_split_button_box_button{
@@ -947,11 +946,10 @@ line-height: 100%;
 
 .multi-split_systems_bottom_text{
   width: 1280px;
-  margin-left: 80px;
+  margin: 160px auto 0;
   height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 160px;
 }

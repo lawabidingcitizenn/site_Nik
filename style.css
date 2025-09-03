@@ -529,7 +529,7 @@ header {
 .our_service-photo{
     width: 620px;
     height: 900px;
-    margin-left: 80px;
+    margin: 0 auto;
 }
 
 .our_service-photo-block{
