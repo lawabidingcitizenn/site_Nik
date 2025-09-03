@@ -1,0 +1,26 @@
+:root{
+    --normal-width: 1280px;
+    --white-color: #FFFFFF;
+    --blue-gray: #8589A3;
+    --orange: #FF6E4A;
+    --light-orange: #FFF6F2;
+    --white-second: #F3F3F3;
+    --white-third: #f4f4f4;
+    --light-white: #F8F8F8;
+    --black-color: #303030;
+    --orange-white: #FFF6F2;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Poppins", sans-serif;
+}
+
+.refueling-item{
+    border: 2px solid var(--light-white);
+    border-radius: 24px;
+    padding: 24px;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}

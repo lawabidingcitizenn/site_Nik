@@ -1,0 +1,411 @@
+:root{
+    --normal-width: 1280px;
+    --white-color: #FFFFFF;
+    --blue-gray: #8589A3;
+    --orange: #FF6E4A;
+    --light-orange: #FFF6F2;
+    --white-second: #F3F3F3;
+    --white-third: #f4f4f4;
+    --light-white: #F8F8F8;
+    --black-color: #303030;
+    --orange-white: #FFF6F2;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Poppins", sans-serif;
+}
+
+.installation_conditioners_section_top{
+    width: 1280px;
+    height: 680px;  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.installation_conditioners{
+    width: 600px;
+    height: 520px;  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+}
+
+.installation_conditioners_top{
+    width: 600px;
+    height: 228px; 
+    display: flex;
+    flex-direction: column; 
+    gap: 24px;  
+}
+
+.installation_conditioners_section_top_graytext{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--blue-gray);    
+}
+
+.installation_table_block{
+    width: var(--normal-width);
+    height: 748px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 80px 0px 80px;
+}
+
+.installation_table_block_top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: var(--normal-width);
+    height: 104px;
+    flex-direction: row;
+    justify-content: start; 
+    align-items: start;
+}
+
+.installation_table_block_item{
+    display: flex;
+    padding: 12px;
+    gap: 8px;
+    border: 2px solid var(--light-white);
+    border-radius: 20px; 
+    width: fit-content;
+    height: 16px;  
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: lowercase;
+    color: var(--blue-gray);
+    align-items: center;
+}
+
+.installation_table_block_item:hover{
+    border: 2px solid var(--orange); 
+    color: var(--orange);   
+}
+
+.ellipse_item{
+    visibility: hidden;    
+}
+
+.installation_table_block_item:hover .ellipse_item{
+    visibility: visible;     
+}
+
+.installation_table_bottom{
+    width: 1280px;
+    height: 584px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.installation_table_bottom_header{
+    width: 1280px;
+    height: 64px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.installation_table_bottom_header_item{
+    border-radius: 20px;
+    padding: 20px;
+    width: 384px;
+    height: 24px;
+    display: flex;
+    background-color: var(--light-white);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: lowercase;
+    color: var(--black-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.installation_table_bottom_table{
+    border: 4px solid var(--light-white);
+    border-radius: 20px;
+    width: 1280px;
+    height: 500px; 
+    background-color: var(--light-white); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.background-white{
+    background-color: var(--white-color);
+}
+
+.installation_block_element{
+    border: 2px solid var(--light-white);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 426px;
+    height: 97px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: lowercase;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+.slide_conditioners{
+    border-radius: 40px;
+    padding: 40px 60px;
+    width: 280px;
+    height: 320px;
+    background-color: var(--light-white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slide_conditioners_text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--blue-gray);
+}
+
+.slide_conditioners_text a{
+    text-decoration: none;
+    color: var(--orange);
+}
+
+.installation_materials{
+    width: var(--normal-width);
+    height: 840px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;  
+    margin-left: 80px; 
+    margin-top: 160px;
+}
+
+.installation_materials_left{
+    width: 580px;
+    height: 768px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;   
+}
+
+.installation_materials_left_top{
+    width: 580px;
+    height: 156px;  
+    display: flex;
+    justify-content: space-between;  
+    flex-direction: column;
+}
+
+.installation_materials_left_table{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; 
+}
+
+.installation_materials_left_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 580px;
+    height: 553px;
+    justify-content: space-between;     
+}
+
+.installation_table_item{
+    border: 2px solid var(--light-white);
+    border-radius: 24px;
+    padding: 24px;
+    width: 228px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;       
+}
+
+.installation_table_item_text_first{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--black-color);
+    margin: 0;
+}
+
+.installation_table_item_text_second{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--blue-gray);
+    margin: 0;
+}
+
+.installation_our_service{
+    width: var(--normal-width);
+    height: 725px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+    margin-top: 160px;
+
+}
+
+.installation_second_text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--blue-gray);    
+}
+
+.installation_our_service_top{
+    width: 680px;
+    height: 156px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+.installation_first_text{
+    text-align: start; 
+    font-family: var(--font-family); 
+    font-weight: 700; 
+    font-size: 60px; 
+    line-height: 100%;
+    color: var(--black-color);
+}
+
+.installation_our_service_bottom{
+    width: var(--normal-width);
+    height: 469px;   
+    display: flex;
+    justify-content: space-between;
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease;
+}
+
+.installation_our_service_item{
+    border-radius: 40px;
+    padding: 40px;
+    width: 320px;
+    height: 389px;  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--light-white);
+    overflow: visible;
+    position: relative;  
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease;
+}
+
+.installation_our_service_item_text{
+    width: 320px;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.installation_our_service_buttonbox{
+    display: none;
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease;
+    align-items: center;
+    height: 1px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.installation_our_service_item .installation_our_service_buttonbox{
+    height: 60px;
+}
+
+.installation_our_service_item:hover{
+    background-color: var(--light-orange);
+    height: 489px;  
+    transform: translateY(-50px);  
+    
+}
+
+.installation_our_service_item:hover .installation_our_service_buttonbox{
+    width: 160px;
+    height: 60px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    visibility: visible;   
+}
+
+/* .basket_button{
+    border: 2px solid var(--orange);
+    border-radius: 30px;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+} */
+
+
+.installation_our_service_item:hover .basket_button{
+    display: flex;
+    border: 2px solid var(--orange);
+    border-radius: 30px;
+    padding: 20px;
+    width: 60px;
+    height: 60px;    
+}
+
+
+.installation_our_service_item:hover .installation_slider_button{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: var(--orange);
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    display: flex;
+    transition: 
+    transform 0.8s ease;
+}
+
+.installation_conditioners_section_top_price{
+    font-family: 'Roboto'; 
+    font-size: 24px; 
+    font-weight: 600; 
+    color: var(--orange);
+    margin: 0;
+}
+
+.installation_conditioners_section_top_text{
+    font-size: 60px; 
+    font-family: var(--second-family); 
+    font-weight: 700; 
+    margin: 0;
+    line-height: 100%;
+}

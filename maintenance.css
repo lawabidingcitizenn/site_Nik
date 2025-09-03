@@ -1,0 +1,194 @@
+:root{
+    --normal-width: 1280px;
+    --white-color: #FFFFFF;
+    --blue-gray: #8589A3;
+    --orange: #FF6E4A;
+    --light-orange: #FFF6F2;
+    --white-second: #F3F3F3;
+    --white-third: #f4f4f4;
+    --light-white: #F8F8F8;
+    --black-color: #303030;
+    --orange-white: #FFF6F2;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Poppins", sans-serif;
+}
+
+.table_first_element{
+    width: 917px;
+    height: 48px;
+}
+
+.table_second_element{
+    width: 176px;
+    height: 48px;
+}
+
+.maintenance_step{
+    border-radius: 12px;
+    padding: 12px 20px;
+    width: 42px;
+    height: 20px;
+    background-color: var(--light-orange);
+    color: var(--orange);
+}
+
+.maintenance_step_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.text_start{
+    text-align: start;
+}
+
+.maintenance_reasons_item{
+    border: 2px solid var(--light-white);
+    border-radius: 40px;
+    padding: 40px;
+    width: 316px;
+    height: 316px;
+    transition:
+    transform 0.8s ease;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+}
+
+.maintenance_reasons_item:hover{
+    transform: translateY(-40px);
+    background-color: var(--light-white);
+}
+
+.maintenance_reasons_icon_container{
+    transform: translateY(-80px);
+    border-radius: 24px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-orange);
+}
+
+.overflow_visible{
+    overflow: visible;
+}
+
+.maintenance_reasons_item:hover .maintenance_reasons_icon_container{
+    background-color: var(--orange);
+}
+
+.maintenance_reasons_item:hover .maintenance_reasons_icon_image{
+    fill: var(--white-color);
+}
+
+.maintenance_information_block_low_textblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.maintenance_information_block_element{
+    border: 2px solid var(--light-white);
+    border-radius: 24px;
+    padding: 24px;
+    width: 128px;
+    height: 128px;
+}
+
+.maintenance_information_block_element_icon{
+    border-radius: 12px;
+    padding: 12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-orange);
+}
+
+.maintenance_our_service_item{
+    border-radius: 40px;
+    padding: 40px;
+    width: 320px;
+    height: 480px;  
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-white);
+    overflow: visible;
+    position: relative;  
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease;   
+    gap: 40px; 
+}
+
+.maintenance_our_service_item:hover{
+    background-color: var(--light-orange);
+    height: 578px; 
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease; 
+}
+
+.maintenance_our_service_bottom{
+    width: var(--normal-width);
+    height: 578px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease;
+}
+
+.maintenance_our_service_item:hover .installation_our_service_buttonbox{
+    width: 160px;
+    height: 60px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    visibility: visible;
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease; 
+}
+
+.maintenance_our_service_item:hover .basket_button{
+    display: flex;
+    border: 2px solid var(--orange);
+    border-radius: 30px;
+    padding: 20px;
+    width: 60px;
+    height: 60px; 
+    transition: 
+    height 0.8s ease,
+    transform 0.8s ease;
+}
+
+.maintenance_our_service_item:hover .installation_slider_button{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: var(--orange);
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    display: flex;
+    transition: 
+    transform 1.8s ease;
+}
+
+.maintenance_ask_text{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #ff6e4a;
+}

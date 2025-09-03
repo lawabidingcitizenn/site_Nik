@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="installation_style.css">
+    <link rel="stylesheet" href="maintenance.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <title>Обслуживание кондиционеров</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header_content container">
+    
+            <img src="image/Logo.png" class="logo">  
+            
+            <div class="search_bar">
+                <div class="search_bar-content">
+                    <div class="search_bar-icon">
+                        <img src="image/search.svg" class="search">
+                            
+                    </div>
+                    <input id="search-input" type="text" class="search_bar-input"
+                        autocomplete="off"
+                        placeholder="что вы ищете?" name="q  "
+                        hx-trigger="keyup changed delay:500ms"
+                        hx-target="#search-container"
+                    >
+                </div>
+            </div>
+
+            <div class="button-bar">
+                <button id="liked" class="button_navigation"><img src="image/heart.svg"> </button>
+                <button id="arrow" class="button_navigation"><img src="image/arrow.svg"> </button>
+                <button id="arrow" class="button_navigation"><img src="image/shopping.svg"> </button>
+            </div>  
+            <div class="phone-bar">
+                <img src="image/call.svg" class="search"  style="margin:0px 13px;">
+                <h4 class="phone-text">+7 (920) 831-28-88</h4>   
+            </div>  
+            <button name="auth" class="authauthorization">войти</button>
+            
+            
+        </div> 
+        <div class="header_second">
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                главная 
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                акции 
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                услуги 
+            </a>                
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                бренды 
+            </a> 
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                доставка 
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                вопрос ответ 
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                каталог 
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                контакты 
+            </a>
+        </div>
+    </header>
+
+    <section class="about" style="height: 880px; align-items: center;">
+        <div class="installation_conditioners_section_top">
+            <div class="installation_conditioners">
+                <div class="installation_conditioners_top">
+                    <h3 class="installation_conditioners_section_top_price">>от 2500 руб</h3>
+                    <h2 class="installation_conditioners_section_top_text">>Обслуживание  <br>кондиционеров <br> в Москве</h2>
+                </div> 
+                <h4 class="installation_conditioners_section_top_graytext">
+                    Закажите профессиональную подготовку кондиционера к сезонному использованию!<br>
+                    Заключаем договор на техническое обслуживание сплит-систем с физическими и юридическими лицами. Мастера выезжают по всей Москве и Московской области. Обслуживаем  бытовые, домашние и промышленные кондиционеры, для медицинских учреждений, складов и торговых помещений.
+                </h4>
+                <div style="align-items: center;">
+                    <button class="about_button">
+                        Оставьте заявку    
+                    </button>
+                    
+                    <button class="about_second_button">
+                        <img src="image/tilted_arrow.svg">    
+                    </button>
+                </div>
+            </div>  
+            <img src="image/installation_photo.png" style="width: 600px; height: 680px;"> 
+        </div>
+        <div class="about_info" style="text-align: center; height: 120px;">
+            <div class="about_info-block" style="width: 300px;">
+                <h2 class="about_info-maintext">5 лет</h2>  
+                <h4 class="about_info-secondtext">гарантия на установку <br>кондиционера</h4>      
+            </div>
+            <img src="image/about_ellipse.svg" class="about_ellipse">
+            <div class="about_info-block" style="width: 380px;">
+                <h2 class="about_info-maintext">Постоплата</h2>  
+                <h4 class="about_info-secondtext">оплачиваете установку после<br> выполнения работ и полной проверки</h4>      
+            </div> 
+            <img src="image/about_ellipse.svg" class="about_ellipse">
+            <div class="about_info-block" style="width: 300px;">
+                <h2 class="about_info-maintext">24/7</h2>  
+                <h4 class="about_info-secondtext">Выезд сервисного инженера в<br> случае неисправности</h4>      
+            </div>
+        </div>
+    </section>
+    <section class="installation_table_bottom" style="height: 1164px; margin: 0px 80px">
+        <div class="installation_table_bottom_header" style="height: 64px; justify-content: space-between;">
+            <div class="table_first_element installation_table_bottom_header_item" style=" width: 880px; height: 24px;">Наименование</div>
+            <div class="table_second_element installation_table_bottom_header_item" style="width: 140px; height: 24px;">ед. изм.</div>
+            <div class="table_second_element installation_table_bottom_header_item" style="width: 140px; height: 24px;">Цена</div>
+        </div>
+        <div class="installation_table_bottom_table" style="height: 1080px;">
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Обслуживание настенного кондиционера до 4 кВт </div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">2500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Обслуживание настенного кондиционера до 8 кВт</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">3500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Обслуживание настенного кондиционера до 11 кВт </div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">4500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element" style="height: 68px; text-align: center;">Обслуживание настенного кондиционера до 4 кВт (с сервис пакетом и мойкой водой<br> высокого давления)</div>
+                <div class="installation_block_element table_second_element" style="height: 68px;">шт</div>
+                <div class="installation_block_element table_second_element" style="height: 68px;">4500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element" style="height: 68px; text-align: center;">Обслуживание настенного кондиционера до 8 кВт (с сервис пакетом и мойкой водой<br> высокого давления)</div>
+                <div class="installation_block_element table_second_element" style="height: 68px;">шт</div>
+                <div class="installation_block_element table_second_element" style="height: 68px;">5500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Обслуживание кондиционера потолочного типа до 4 кВт</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">6000 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Обслуживание кондиционера потолочного типа до 8 кВт</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">7000 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Обслуживание кондиционера потолочного типа до 11 кВт</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">8000 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Обслуживание кондиционера потолочного типа до 15 кВт</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">9500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Профилактика дренажного насоса (помпы)</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">2500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Заправка фреоном R22, R-410A, R32</div>
+                <div class="installation_block_element table_second_element">гр</div>
+                <div class="installation_block_element table_second_element">10 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Устранение утечки хладагента, вальцовка. (При стандартном расположении кондиционера)</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">3000 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Мойка теплообменника наружного блока (водой высокого давления)</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">2500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Поиск утечки хладагента</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">3500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Пайка соединений</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">1500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Вакуумация трассы</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">2000 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Опрессовка трассы азотом (бытовые)</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">8000 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Протяжка гаек</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">1000 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Развальцовка</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">1500 руб</div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="installation_block_element table_first_element">Выезд мастера</div>
+                <div class="installation_block_element table_second_element">шт</div>
+                <div class="installation_block_element table_second_element">2500 руб</div>
+            </div>
+        </div>
+    </section>
+
+    <section name="our_product" class="product" style="height: 736px;margin-top: 160px; padding: 0px 80px;">
+        <div class="our_product" style="height: 156px;">
+            <h2 class="product-text">
+                Как сделать заказ?
+            </h2> 
+            <h4 class="about-text_small">
+                Три простых шага для оформления заказа
+            </h4>       
+        </div>
+
+        <div class="slider-container" style="height: 588px;">
+            <div class="slider">
+                <div class="slides" style="gap: 40px; width: 1280px; height: 400px;">
+                    <div class="slide_conditioners" style="gap: 16px; justify-content: space-between;">
+                        <div class="maintenance_step">
+                            шаг 1    
+                        </div>  
+                        <div class="maintenance_step_text" style="height: 138px;">
+                            <h4 class="slide_text text_start" style="margin: 0;">Оформление заявки</h4>
+                            <h4 class="slide_conditioners_text text_start" style="margin: 0;">Оставьте  заявку на нашем<br>сайте либо по номеру телефона<br>+79208312888</h4>
+                        </div>  
+                    </div>
+                    <div class="slide_conditioners" style="gap: 16px; justify-content: space-between;">
+                        <div class="maintenance_step">
+                            шаг 2   
+                        </div>  
+                        <div class="maintenance_step_text" style="height: 166px;">
+                            <h4 class="slide_text text_start" style="margin: 0;">Выезд мастера</h4>
+                            <h4 class="slide_conditioners_text text_start" style="margin: 0;">В заранее согласованное время<br> к вам выезжает бригада<br> мастеров для проведения<br> необходимых работ</h4>
+                        </div>  
+                    </div>
+                    <div class="slide_conditioners" style="gap: 16px; justify-content: space-between;">
+                        <div class="maintenance_step">
+                            шаг 3    
+                        </div>  
+                        <div class="maintenance_step_text" style="height: 138px;">
+                            <h4 class="slide_text text_start" style="margin: 0;">Приемка и оплата</h4>
+                            <h4 class="slide_conditioners_text text_start" style="margin: 0;">Вы принимаете работу наших<br> сотрудников и только после<br> этого оплачиваете</h4>
+                        </div>  
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section name="our_product" class="product" style="height: 1160px;;margin-top: 160px; padding: 0px 80px;">
+        <div class="our_product" style="height: 156px;">
+            <h2 class="product-text">
+                Что включено
+            </h2> 
+            <h4 class="about-text_small">
+                Работы и материалы которые входят в обслуживание<br> кондиционера
+            </h4>       
+        </div>
+        <div class="installation_materials" style="margin: 60px 0 0 0;">
+            <div class="installation_materials_left" style="height: 572px;">
+            <div class="installation_materials_left_top">
+                    <h2 class="installation_first_text" style="font-size: 28px;">Чистка внутреннего блока кондиционера</h2> 
+            </div>
+            <div class="installation_materials_left_bottom" style="flex-direction: row; width: 588px;">
+                    <div class="installation_table_item" style="width: 232px; gap: 12px; justify-content: start;">
+                        <h4 class="installation_table_item_text_first">Чистка</h4>
+                        <h4 class="installation_table_item_text_second" style="font-size: 16px;">фильтров внутреннего блока<br> кондиционера от загрязнений</h4>
+                    </div>
+                    <div class="installation_table_item" style="width: 232px; gap: 12px; justify-content: start;">
+                        <h4 class="installation_table_item_text_first">Промывка</h4>
+                        <h4 class="installation_table_item_text_second" style="font-size: 16px;">дренажной ванночки для<br> улучшения отока конденсата</h4>
+                    </div>
+                    <div class="installation_table_item" style="width: 232px; gap: 12px; justify-content: start;">
+                        <h4 class="installation_table_item_text_first">Чистка</h4>
+                        <h4 class="installation_table_item_text_second" style="font-size: 16px;">дренажного шланга для<br> улучшения отока конденсата</h4>
+                    </div>
+                    <div class="installation_table_item" style="width: 232px; gap: 12px; justify-content: start;">
+                        <h4 class="installation_table_item_text_first">Чистка</h4>
+                        <h4 class="installation_table_item_text_second" style="font-size: 16px;">радиатора от загрязнений,<br> улучшается теплообмен и<br> процесс охлаждения</h4>
+                    </div>
+                    <div class="installation_table_item" style="width: 232px; gap: 12px; justify-content: start;">
+                        <h4 class="installation_table_item_text_first">Очистка</h4>
+                        <h4 class="installation_table_item_text_second" style="font-size: 16px;">корпуса от скопившейся пыли</h4>
+                    </div>
+                    <div class="installation_table_item" style="width: 232px; gap: 12px; justify-content: start;">
+                        <h4 class="installation_table_item_text_first">Антибактериальная<br> обработка</h4>
+                        <h4 class="installation_table_item_text_second" style="font-size: 16px;">от плесени и грибка</h4>
+                    </div>
+                    
+            </div>     
+            </div>
+            <img src="image/installation_materials_photo.png" style="width: 620px; height: 840px; pointer-events: none;" >
+        </div>
+    </section>
+
+    <section class="installation_our_service" style="height: 776px;">
+        <div class="installation_our_service_top">
+            <h2 class="installation_first_text" style="text-align: center; margin: 0;">Причины</h2>
+            <h4 class="installation_second_text" style="text-align: center; margin: 0;" >Основные причины проводить своевременное<br> обслуживание климатического оборудования</h4>
+        </div>
+            <div class="slider" style="gap: 40px; width: 1280px; height: 480px; display: flex; flex-direction: row; align-items: end;">
+                <div class="maintenance_reasons_item" style="justify-content: start;">
+                    <div class="maintenance_reasons_icon_container">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_56_749)">
+                                <path class="maintenance_reasons_icon_image" d="M27.3335 31.9999C27.0228 32 26.7164 31.9277 26.4386 31.7887C26.1607 31.6498 25.9191 31.4481 25.7328 31.1995C25.5464 30.9509 25.4206 30.6624 25.3652 30.3567C25.3097 30.0511 25.3263 29.7367 25.4135 29.4386C25.5721 28.8919 25.7508 28.3826 25.9281 27.8812C27.5561 24.5906 26.1375 19.9732 24.3388 17.6839C22.6333 15.2989 21.6237 12.487 21.4227 9.56186C21.2216 6.63669 21.837 3.71316 23.2001 1.11722C23.4342 0.639832 23.8484 0.27499 24.3515 0.102956C24.8546 -0.0690771 25.4054 -0.0342097 25.8828 0.199888C26.3602 0.433986 26.725 0.848138 26.8971 1.35124C27.0691 1.85433 27.0342 2.40517 26.8001 2.88256C25.744 4.8464 25.2648 7.06891 25.4179 9.29348C25.571 11.518 26.3502 13.6539 27.6655 15.4546C30.0201 18.3372 31.8175 24.9492 29.7041 29.2132C29.5521 29.6466 29.3961 30.0866 29.2561 30.5612C29.1346 30.9768 28.8814 31.3418 28.5347 31.6012C28.188 31.8607 27.7665 32.0006 27.3335 31.9999ZM18.0001 31.9999C17.6895 32 17.3831 31.9277 17.1053 31.7887C16.8274 31.6498 16.5858 31.4481 16.3994 31.1995C16.2131 30.9509 16.0873 30.6624 16.0318 30.3567C15.9764 30.0511 15.9929 29.7367 16.0801 29.4386C16.2388 28.8919 16.4175 28.3826 16.5948 27.8812C18.2228 24.5906 16.8041 19.9732 15.0055 17.6839C13.3 15.2989 12.2904 12.487 12.0893 9.56186C11.8883 6.63669 12.5036 3.71316 13.8668 1.11722C14.1009 0.639832 14.515 0.27499 15.0181 0.102956C15.5212 -0.0690771 16.0721 -0.0342097 16.5495 0.199888C17.0268 0.433986 17.3917 0.848138 17.5637 1.35124C17.7358 1.85433 17.7009 2.40517 17.4668 2.88256C16.4106 4.8464 15.9314 7.06891 16.0846 9.29348C16.2377 11.518 17.0169 13.6539 18.3321 15.4546C20.6868 18.3372 22.4841 24.9492 20.3708 29.2132C20.2188 29.6466 20.0628 30.0866 19.9228 30.5612C19.8013 30.9768 19.5481 31.3418 19.2014 31.6012C18.8547 31.8607 18.4332 32.0006 18.0001 31.9999ZM8.66679 31.9999C8.35615 32 8.04977 31.9277 7.77193 31.7887C7.49408 31.6498 7.25242 31.4481 7.0661 31.1995C6.87978 30.9509 6.75392 30.6624 6.69849 30.3567C6.64307 30.0511 6.6596 29.7367 6.74679 29.4386C6.90546 28.8919 7.08413 28.3826 7.26146 27.8812C8.88946 24.5906 7.47079 19.9732 5.67212 17.6839C3.96662 15.2989 2.95707 12.487 2.75601 9.56186C2.55496 6.63669 3.17031 3.71316 4.53346 1.11722C4.76756 0.639832 5.18171 0.27499 5.68481 0.102956C6.1879 -0.0690771 6.73874 -0.0342097 7.21613 0.199888C7.69351 0.433986 8.05836 0.848138 8.23039 1.35124C8.40242 1.85433 8.36756 2.40517 8.13346 2.88256C7.0773 4.8464 6.59811 7.06891 6.75123 9.29348C6.90435 11.518 7.68352 13.6539 8.99879 15.4546C11.3495 18.3372 13.1468 24.9492 11.0335 29.2132C10.8815 29.6466 10.7255 30.0866 10.5855 30.5612C10.4641 30.9762 10.2116 31.3407 9.86567 31.6C9.51977 31.8594 9.09913 31.9997 8.66679 31.9999Z" fill="#FF6E4A" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_56_749">
+                                <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>   
+                    <div style="transform: translateY(-40px);">
+                        <h4 class="slide_text text_start" style="margin: 0px 0px 20px 0px; height: 34px;">Неприятный запах</h4>
+                        <h4 class="slide_conditioners_text text_start" style="margin: 0; font-size: 16px;">Появляется из-за загрязнения в<br> поддоне, радиаторе и на фильтрах<br> внутреннего блока. При высокой<br> влажности грибки и бактерии быстро<br> размножаются, и вместе с воздухом<br> попадают в помещение</h4>                          
+                    </div>
+                </div>
+                <div class=" maintenance_reasons_item" style="justify-content: start;">
+                    <div class="maintenance_reasons_icon_container">
+                        <svg width="27" height="32" viewBox="0 0 27 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="maintenance_reasons_icon_image" d="M19 22.6667C18.9969 25.141 18.0125 27.5132 16.2629 29.2628C14.5132 31.0125 12.1411 31.9968 9.6667 32C1.56403 32.156 -2.77996 21.816 3.00004 16.148V6.66667C3.28137 -2.14533 16.0547 -2.13333 16.3334 6.66667V16.148C18.0386 17.8898 18.9956 20.2291 19 22.6667ZM13.6667 22.6667C13.6666 21.8396 13.4101 21.0329 12.9325 20.3576C12.455 19.6823 11.7798 19.1717 11 18.896V6.66667C11 6.31305 10.8596 5.97391 10.6095 5.72386C10.3595 5.47381 10.0203 5.33333 9.6667 5.33333C9.31308 5.33333 8.97394 5.47381 8.72389 5.72386C8.47384 5.97391 8.33337 6.31305 8.33337 6.66667V18.896C7.64196 19.1405 7.03105 19.5703 6.56744 20.1385C6.10382 20.7067 5.80534 21.3914 5.70461 22.1178C5.60389 22.8442 5.70479 23.5844 5.99631 24.2573C6.28782 24.9302 6.75872 25.51 7.35753 25.9334C7.95634 26.3568 8.66002 26.6073 9.39163 26.6578C10.1232 26.7082 10.8546 26.5565 11.5059 26.2193C12.1571 25.8821 12.7031 25.3724 13.0842 24.7458C13.4653 24.1193 13.6668 23.4 13.6667 22.6667ZM27 4C27 2.93913 26.5786 1.92172 25.8285 1.17157C25.0783 0.421427 24.0609 0 23 0C21.9392 0 20.9218 0.421427 20.1716 1.17157C19.4215 1.92172 19 2.93913 19 4C19 5.06087 19.4215 6.07828 20.1716 6.82843C20.9218 7.57857 21.9392 8 23 8C24.0609 8 25.0783 7.57857 25.8285 6.82843C26.5786 6.07828 27 5.06087 27 4ZM24.3334 4C24.3334 4.26371 24.2552 4.5215 24.1087 4.74076C23.9622 4.96003 23.7539 5.13092 23.5103 5.23184C23.2666 5.33276 22.9986 5.35916 22.7399 5.30771C22.4813 5.25627 22.2437 5.12928 22.0572 4.94281C21.8708 4.75634 21.7438 4.51876 21.6923 4.26012C21.6409 4.00148 21.6673 3.73339 21.7682 3.48976C21.8691 3.24612 22.04 3.03788 22.2593 2.89137C22.4785 2.74487 22.7363 2.66667 23 2.66667C23.3537 2.66667 23.6928 2.80714 23.9428 3.05719C24.1929 3.30724 24.3334 3.64638 24.3334 4Z" fill="#FF6E4A" />
+                        </svg>
+                    </div>    
+                    <div style="transform: translateY(-40px);">
+                        <h4 class="slide_text text_start" style="margin: 0px 0px 20px 0px; height: 68px;">Кондиционер<br> не охлаждает</h4>
+                        <h4 class="slide_conditioners_text text_start" style="margin: 0; font-size: 16px;">Когда кондиционер уже перестал<br> охлаждать, это говорит о серьёзных<br> поломках: потери фреона в следствии<br> утечки, выходе из строя компрессора,<br> пускового конденсатора, вентилятора и<br> других важных деталей</h4>                          
+                    </div>
+                </div>
+                <div class=" maintenance_reasons_item" style="justify-content: start;">
+                    <div class="maintenance_reasons_icon_container">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="maintenance_reasons_icon_image" d="M16 11.0397C17.1053 11.0397 18 10.145 18 9.03967V3.33301C18 2.22767 17.1053 1.33301 16 1.33301C14.8947 1.33301 14 2.22767 14 3.33301V9.03967C14 10.145 14.8947 11.0397 16 11.0397Z" fill="#FF6E4A" />
+                            <path class="maintenance_reasons_icon_image" d="M24.5883 4.12346C23.6296 3.57146 22.407 3.89946 21.8563 4.8568C21.3043 5.8128 21.6323 7.0368 22.5883 7.5888C24.123 8.47413 26.1643 10.3595 26.1643 16.4768C26.1643 24.9621 22.275 26.6675 16.0003 26.6675C9.72563 26.6675 5.83496 24.9635 5.83496 16.4768C5.83496 10.3821 7.87763 8.49146 9.41496 7.59946C10.3696 7.0448 10.695 5.8208 10.1403 4.86613C9.58563 3.91146 8.36296 3.58613 7.40696 4.1408C3.65896 6.31546 1.83496 10.3515 1.83496 16.4755C1.83496 29.1955 9.91896 30.6661 16.0003 30.6661C22.0816 30.6661 30.1643 29.1955 30.1643 16.4755C30.1643 10.3288 28.3403 6.2888 24.5883 4.12346Z" fill="#FF6E4A" />
+                        </svg>
+                    </div>    
+                    <div style="transform: translateY(-40px);">
+                        <h4 class="slide_text text_start" style="margin: 0px 0px 20px 0px; height: 68px;">Не включается кондиционер</h4>
+                        <h4 class="slide_conditioners_text text_start" style="margin: 0; font-size: 16px;">Такая неисправность часто связана с<br> необходимостью заменить батарейки в<br> пульте управления, а также появляется<br> при неисправности печатной платы<br> или из-за сгоревшего компрессора</h4>                          
+                    </div>
+                </div>
+                <div class=" maintenance_reasons_item" style="justify-content: start;">
+                    <div class="maintenance_reasons_icon_container">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="maintenance_reasons_icon_image" d="M16.8516 13.2406C16.4396 13.0153 15.9409 13.0206 15.5356 13.258C14.8316 13.67 8.63957 17.4246 8.55957 22.338C8.6769 26.2606 12.3142 29.882 16.2276 29.9353C20.1049 29.8806 23.8609 26.1646 23.8609 22.274C23.8609 17.11 17.1356 13.3966 16.8529 13.242L16.8516 13.2406Z" fill="#FF6E4A" />
+                            <path class="maintenance_reasons_icon_image" d="M26.0161 4.11269C25.6041 3.88736 25.1054 3.89269 24.7001 4.13002C24.2334 4.40336 20.1361 6.89136 20.0801 10.266C20.1614 12.974 22.6747 15.474 25.3907 15.5127C28.0721 15.4754 30.6667 12.7807 30.6667 10.2034C30.6667 6.74069 26.4854 4.37136 26.0161 4.11269Z" fill="#FF6E4A" />
+                            <path class="maintenance_reasons_icon_image" d="M13.385 9.29983C13.385 5.52516 8.54634 2.5305 8.00234 2.23183C7.59034 2.0065 7.09034 2.0105 6.68767 2.24916C6.14634 2.56516 1.39567 5.4465 1.33301 9.30116C1.42634 12.3865 4.29034 15.2345 7.37701 15.2758C10.4277 15.2332 13.385 12.3865 13.385 9.29983Z" fill="#FF6E4A" />
+                        </svg>
+                    </div>    
+                    <div style="transform: translateY(-40px);">
+                        <h4 class="slide_text text_start" style="margin: 0px 0px 20px 0px; height: 68px;">Течёт вода из<br> кондиционера</h4>
+                        <h4 class="slide_conditioners_text text_start" style="margin: 0; font-size: 16px;">Внутренний блок кондиционера может<br> капать по следующим причинам: <br> обмерзания радиатора из-за <br> недостатка фреона, засорения <br> дренажной системы, загрязнения <br> поддона. Необходимо провести <br> комплексное обслуживание</h4>                          
+                    </div>
+                </div>
+                <div class=" maintenance_reasons_item" style="justify-content: start;">
+                    <div class="maintenance_reasons_icon_container">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="maintenance_reasons_icon_image" d="M30.366 18.6268L27.106 19.4882C26.6284 19.6141 26.1818 19.8369 25.794 20.1428L22.3353 18.1322C22.7986 16.7477 22.7986 15.25 22.3353 13.8655L25.794 11.8535C26.1818 12.1594 26.6284 12.3823 27.106 12.5082C27.106 12.5082 30.5953 13.4135 30.706 13.4135C31.0251 13.4072 31.3314 13.2866 31.5691 13.0736C31.8068 12.8607 31.9603 12.5695 32.0016 12.253C32.0429 11.9365 31.9694 11.6157 31.7943 11.3489C31.6191 11.082 31.3541 10.8869 31.0473 10.7988L27.7887 9.93616C27.5446 9.87137 27.3363 9.71244 27.2093 9.49422C27.0823 9.276 27.0471 9.01632 27.1113 8.77216L27.974 5.51349C28.0188 5.34417 28.0299 5.16769 28.0065 4.9941C27.9831 4.82052 27.9258 4.65324 27.8377 4.50182C27.7497 4.3504 27.6327 4.2178 27.4934 4.11159C27.3541 4.00538 27.1953 3.92765 27.026 3.88282C26.8567 3.838 26.6802 3.82696 26.5066 3.85035C26.333 3.87373 26.1658 3.93107 26.0143 4.0191C25.8629 4.10713 25.7303 4.22412 25.6241 4.3634C25.5179 4.50268 25.4402 4.66151 25.3953 4.83082L24.534 8.08949C24.4064 8.56759 24.3787 9.06688 24.4527 9.55616L20.986 11.5695C20.0328 10.4949 18.7579 9.75693 17.3513 9.46549V5.46549C17.8101 5.28529 18.2271 5.01303 18.5767 4.66549L20.9607 2.28149C21.2116 2.03148 21.3529 1.69204 21.3535 1.33785C21.3541 0.983654 21.214 0.643719 20.964 0.392824C20.714 0.14193 20.3746 0.000627207 20.0204 2.08296e-06C19.6662 -0.000623041 19.3262 0.13948 19.0753 0.389491L16.6913 2.77349C16.5121 2.95083 16.2701 3.0503 16.018 3.0503C15.7659 3.0503 15.5239 2.95083 15.3447 2.77349L12.9607 0.389491C12.7092 0.146614 12.3724 0.0122211 12.0228 0.015259C11.6732 0.0182969 11.3388 0.158522 11.0916 0.405733C10.8444 0.652944 10.7041 0.98736 10.7011 1.33696C10.6981 1.68655 10.8325 2.02336 11.0753 2.27482L13.4593 4.66549C13.8089 5.01303 14.2259 5.28529 14.6847 5.46549V9.46549C13.2768 9.75441 12.0001 10.4905 11.0447 11.5642L7.578 9.55083C7.65198 9.06154 7.62429 8.56226 7.49667 8.08416L6.64067 4.82549C6.59584 4.65617 6.51811 4.49734 6.4119 4.35807C6.30569 4.21879 6.17309 4.1018 6.02167 4.01377C5.87025 3.92574 5.70297 3.8684 5.52939 3.84501C5.3558 3.82163 5.17932 3.83267 5.01 3.87749C4.84068 3.92232 4.68185 4.00005 4.54257 4.10626C4.4033 4.21247 4.28631 4.34507 4.19828 4.49649C4.11025 4.64791 4.0529 4.81519 4.02952 4.98877C4.00614 5.16235 4.01717 5.33884 4.062 5.50816L4.92466 8.76682C4.98891 9.01099 4.95368 9.27067 4.82669 9.48889C4.69971 9.7071 4.49135 9.86604 4.24733 9.93082L0.988664 10.7988C0.676645 10.8823 0.405543 11.0762 0.225727 11.3446C0.0459106 11.6129 -0.0303926 11.9373 0.0109936 12.2577C0.0523798 12.578 0.208641 12.8724 0.450746 13.0862C0.692851 13.3 1.00434 13.4187 1.32733 13.4202C1.44066 13.4202 4.92733 12.5148 4.92733 12.5148C5.40495 12.3889 5.85154 12.1661 6.23933 11.8602L9.70067 13.8655C9.23737 15.25 9.23737 16.7477 9.70067 18.1322L6.242 20.1428C5.85421 19.8369 5.40761 19.6141 4.93 19.4882L1.67 18.6268C1.33801 18.5622 0.99389 18.6262 0.707315 18.8059C0.42074 18.9855 0.21313 19.2673 0.126524 19.5942C0.0399188 19.9211 0.0807904 20.2688 0.240863 20.5667C0.400935 20.8646 0.668246 21.0906 0.988664 21.1988L4.24733 22.0615C4.49135 22.1263 4.69971 22.2852 4.82669 22.5034C4.95368 22.7216 4.98891 22.9813 4.92466 23.2255L4.062 26.4842C4.01717 26.6535 4.00614 26.83 4.02952 27.0035C4.0529 27.1771 4.11025 27.3444 4.19828 27.4958C4.28631 27.6473 4.4033 27.7799 4.54257 27.8861C4.68185 27.9923 4.84068 28.07 5.01 28.1148C5.17932 28.1597 5.3558 28.1707 5.52939 28.1473C5.70297 28.1239 5.87025 28.0666 6.02167 27.9785C6.17309 27.8905 6.30569 27.7735 6.4119 27.6343C6.51811 27.495 6.59584 27.3361 6.64067 27.1668L7.502 23.9082C7.62962 23.4301 7.65731 22.9308 7.58333 22.4415L11.05 20.4282C12.0032 21.5028 13.2781 22.2407 14.6847 22.5322V26.5322C14.2259 26.7124 13.8089 26.9846 13.4593 27.3322L11.0753 29.7228C10.8325 29.9743 10.6981 30.3111 10.7011 30.6607C10.7041 31.0103 10.8444 31.3447 11.0916 31.5919C11.3388 31.8391 11.6732 31.9794 12.0228 31.9824C12.3724 31.9854 12.7092 31.851 12.9607 31.6082L15.3513 29.2242C15.5306 29.0468 15.7725 28.9473 16.0247 28.9473C16.2768 28.9473 16.5188 29.0468 16.698 29.2242L19.082 31.6082C19.3335 31.851 19.6703 31.9854 20.0199 31.9824C20.3695 31.9794 20.7039 31.8391 20.9511 31.5919C21.1983 31.3447 21.3385 31.0103 21.3416 30.6607C21.3446 30.3111 21.2102 29.9743 20.9673 29.7228L18.5833 27.3388C18.2325 26.9881 17.8131 26.7135 17.3513 26.5322V22.5322C18.759 22.2436 20.0357 21.5079 20.9913 20.4348L24.458 22.4482C24.384 22.9374 24.4117 23.4367 24.5393 23.9148L25.4007 27.1735C25.4912 27.5154 25.7139 27.8074 26.0197 27.9852C26.3255 28.163 26.6894 28.212 27.0313 28.1215C27.3733 28.031 27.6653 27.8083 27.8431 27.5025C28.0208 27.1967 28.0699 26.8328 27.9793 26.4908L27.1167 23.2322C27.0524 22.988 27.0877 22.7283 27.2146 22.5101C27.3416 22.2919 27.55 22.1329 27.794 22.0682L31.0527 21.2055C31.2257 21.1643 31.3887 21.0888 31.5321 20.9837C31.6755 20.8785 31.7964 20.7457 31.8877 20.5931C31.979 20.4405 32.0388 20.2711 32.0637 20.095C32.0886 19.9189 32.078 19.7397 32.0326 19.5677C31.9871 19.3958 31.9077 19.2347 31.7991 19.0939C31.6904 18.9531 31.5547 18.8355 31.3999 18.7479C31.2451 18.6604 31.0744 18.6047 30.8977 18.5841C30.7211 18.5635 30.5421 18.5785 30.3713 18.6282L30.366 18.6268Z" fill="#FF6E4A" />
+                        </svg>
+                    </div>    
+                    <div style="transform: translateY(-40px);">
+                        <h4 class="slide_text text_start" style="margin: 0px 0px 20px 0px; height: 68px;">Обмерзание <br> фреоновых трубок</h4>
+                        <h4 class="slide_conditioners_text text_start" style="margin: 0; font-size: 16px;">Если на фреоновых трубках внешнего <br> блока появился иней, это <br> свидетельствует о недостатке фреона в <br> системе. Если кондиционер будет <br> работать без необходимого объема <br> хладагента, компрессор подвергается <br> перегреву и он сломается, такой ремонт <br> будет стоить дорого</h4>                          
+                    </div> 
+                </div>
+            </div>
+        <div class="slider-controls" >
+            <button style="background-color:var(--light-white);"class="prev_button" id="prev"><img src="image/arrow-left.svg"></button>
+            <button style="background-color:var(--black-color);"class="next_button" id="next"><img src="image/arrow-right.svg"></button>
+        </div>           
+    </section>
+
+    <section class="information_block" style="margin-top: 160px; align-items: center;">
+        <div class="message_block" >
+            <div class="message_block_text">
+                <div class="message_block_text_top">
+                    <h2 class="our_service-text-top" style="font-size: 24px; text-align: center; margin: auto;">Оставьте сообщение</h2>
+                    <h4 class="about-text_small" style="font-size: 16px;">наши специалисты свяжутся с Вами в ближайшее время для решения вопроса</h4>  
+                </div>
+                <div style="width: 460px; height: 312px;">
+                    <div class="message_block_input_block">
+                        <input type="text" id="message_block_your_name" placeholder="Ваше имя" class="search_bar-input" style="background-color: var(--white-color)">
+                    </div>
+                    <div class="message_block_input_block">
+                        <input type="text" id="message_block_phone" placeholder="Телефон" class="search_bar-input" style="background-color: var(--white-color)">
+                    </div>
+                    <textarea id="message_block_phone" maxlength="200" placeholder="Ваше сообщение" class="search_bar-textarea" style="background-color: var(--white-color)"></textarea>
+                    <div class="data_processing">
+                        <div class="orange-circle" id="toggleCircle">
+                            <div class="white-circle" id="whiteCircle"></div>
+                        </div>
+                        <h4 class="search_bar-input" style="background-color: var(--white-color); margin: auto;">Я согласен на <a href="" style="color: var(--orange); text-decoration: none;">обработку персональных данных</a></h4>   
+                    </div>
+                    <button class="send_message_button">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <div class="information_block_text" style="height: 620px;">
+            <h2 class="product-text installation_first_text" >Почему мы</h2>
+            <h4 class="installation_second_text" style="margin: 0;">
+                Компания Атмосфера-Маркет с 2011 года осуществляет<br>
+                профессиональное обслуживание бытовых и<br> 
+                полупромышленных кондиционеров. Оперативно выезжаем<br> 
+                для устранения и профилактики любых неисправностей в<br> 
+                работе сплит-систем.    
+            </h4>
+            <div style="width: 580px; height: 320px; gap: 20px; display: flex; flex-direction: column; gap: 20px;">
+                <div class="maintenance_information_block_low_textblock">
+                    <div class="maintenance_information_block_element">
+                        <div class="maintenance_information_block_element_icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.6667 9.99984V13.3332H8.33333V9.99984H11.6667ZM20 8.10318V15.8332C20 18.1307 18.1308 19.9998 15.8333 19.9998H4.16667C1.86917 19.9998 0 18.1307 0 15.8332V8.10318C0 6.71568 0.686667 5.42484 1.83667 4.64901L7.66917 0.712344C9.085 -0.242656 10.915 -0.242656 12.3308 0.712344L16.6667 3.63818V1.66651C16.6667 1.20568 17.04 0.833177 17.5 0.833177C17.96 0.833177 18.3333 1.20568 18.3333 1.66651V4.77901C19.3775 5.56401 20 6.78734 20 8.10234V8.10318ZM13.3333 9.99984C13.3333 9.08068 12.5858 8.33318 11.6667 8.33318H8.33333C7.41417 8.33318 6.66667 9.08068 6.66667 9.99984V13.3332C6.66667 14.2523 7.41417 14.9998 8.33333 14.9998H11.6667C12.5858 14.9998 13.3333 14.2523 13.3333 13.3332V9.99984Z" fill="#FF6E4A" />
+                            </svg>
+                        </div>
+                        <h4 class="slide_conditioners_text text_start" style="font-size: 16px; color: var(--black-color); margin-bottom: 0; line-height: 120%;">В квартире, загородном доме, в офисе</h4>    
+                    </div>    
+                    <div class="maintenance_information_block_element">
+                        <div class="maintenance_information_block_element_icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_56_724)">
+                                    <path d="M17.5 4.16667H15.8333V2.5C15.8333 1.12167 14.7117 0 13.3333 0H6.66667C5.28833 0 4.16667 1.12167 4.16667 2.5V7.5H2.5C1.12167 7.5 0 8.62167 0 10V20H20V6.66667C20 5.28833 18.8783 4.16667 17.5 4.16667ZM5 15.8333H3.33333V14.1667H5V15.8333ZM5 12.5H3.33333V10.8333H5V12.5ZM9.16667 15.8333H7.5V14.1667H9.16667V15.8333ZM9.16667 12.5H7.5V10.8333H9.16667V12.5ZM9.16667 9.16667H7.5V7.5H9.16667V9.16667ZM9.16667 5.83333H7.5V4.16667H9.16667V5.83333ZM12.5 15.8333H10.8333V14.1667H12.5V15.8333ZM12.5 12.5H10.8333V10.8333H12.5V12.5ZM12.5 9.16667H10.8333V7.5H12.5V9.16667ZM12.5 5.83333H10.8333V4.16667H12.5V5.83333ZM16.6667 15.8333H15V14.1667H16.6667V15.8333ZM16.6667 12.5H15V10.8333H16.6667V12.5ZM16.6667 9.16667H15V7.5H16.6667V9.16667Z" fill="#FF6E4A" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_56_724">
+                                    <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>   
+                        </div>    
+                        <h4 class="slide_conditioners_text text_start" style="font-size: 16px; color: var(--black-color); bottom: 0; line-height: 120%;">В ресторане, учебном заведении, магазине</h4>
+                    </div> 
+                    <div class="maintenance_information_block_element">
+                        <div class="maintenance_information_block_element_icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_56_729)">
+                                    <path d="M19.4317 5.93333C19.0817 5.76667 18.6758 5.81167 18.3375 6.08417L15.8333 9.16667V6.83583C15.8342 6.4475 15.6175 6.10083 15.2667 5.9325C14.9167 5.76583 14.5108 5.81083 14.1725 6.08333L11.6675 9.1675V6.83667C11.6683 6.44833 11.4517 6.10167 11.1008 5.93333C10.7508 5.76667 10.345 5.81167 10.0067 6.08417L6.90417 9.17667L5.28 1.31417C5.11583 0.5525 4.43 0 3.65167 0H1.66667C0.745833 0 0 0.745833 0 1.66667V15.8333C0 18.1342 1.86583 20 4.16667 20H15.8333C18.1342 20 20 18.1342 20 15.8333V6.83667C20 6.44833 19.7825 6.10167 19.4317 5.93333ZM8.33333 15C8.33333 15.46 7.96 15.8333 7.5 15.8333H6.66667C6.20667 15.8333 5.83333 15.46 5.83333 15V14.1667C5.83333 13.7067 6.20667 13.3333 6.66667 13.3333H7.5C7.96 13.3333 8.33333 13.7067 8.33333 14.1667V15ZM12.5 15C12.5 15.46 12.1267 15.8333 11.6667 15.8333H10.8333C10.3733 15.8333 10 15.46 10 15V14.1667C10 13.7067 10.3733 13.3333 10.8333 13.3333H11.6667C12.1267 13.3333 12.5 13.7067 12.5 14.1667V15ZM16.6667 15C16.6667 15.46 16.2933 15.8333 15.8333 15.8333H15C14.54 15.8333 14.1667 15.46 14.1667 15V14.1667C14.1667 13.7067 14.54 13.3333 15 13.3333H15.8333C16.2933 13.3333 16.6667 13.7067 16.6667 14.1667V15Z" fill="#FF6E4A" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_56_729">
+                                    <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>    
+                        </div>
+                        <h4 class="slide_conditioners_text text_start" style="font-size: 16px; color: var(--black-color); bottom: 0; line-height: 120%;">На производстве и в медицинских учреждениях </h4>    
+                    </div> 
+                </div>
+                <div class="maintenance_information_block_element" style="width: 530px; height: 68px;display: flex; flex-direction: row; gap: 24px;">
+                        <div class="maintenance_information_block_element_icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_56_729)">
+                                    <path d="M19.4317 5.93333C19.0817 5.76667 18.6758 5.81167 18.3375 6.08417L15.8333 9.16667V6.83583C15.8342 6.4475 15.6175 6.10083 15.2667 5.9325C14.9167 5.76583 14.5108 5.81083 14.1725 6.08333L11.6675 9.1675V6.83667C11.6683 6.44833 11.4517 6.10167 11.1008 5.93333C10.7508 5.76667 10.345 5.81167 10.0067 6.08417L6.90417 9.17667L5.28 1.31417C5.11583 0.5525 4.43 0 3.65167 0H1.66667C0.745833 0 0 0.745833 0 1.66667V15.8333C0 18.1342 1.86583 20 4.16667 20H15.8333C18.1342 20 20 18.1342 20 15.8333V6.83667C20 6.44833 19.7825 6.10167 19.4317 5.93333ZM8.33333 15C8.33333 15.46 7.96 15.8333 7.5 15.8333H6.66667C6.20667 15.8333 5.83333 15.46 5.83333 15V14.1667C5.83333 13.7067 6.20667 13.3333 6.66667 13.3333H7.5C7.96 13.3333 8.33333 13.7067 8.33333 14.1667V15ZM12.5 15C12.5 15.46 12.1267 15.8333 11.6667 15.8333H10.8333C10.3733 15.8333 10 15.46 10 15V14.1667C10 13.7067 10.3733 13.3333 10.8333 13.3333H11.6667C12.1267 13.3333 12.5 13.7067 12.5 14.1667V15ZM16.6667 15C16.6667 15.46 16.2933 15.8333 15.8333 15.8333H15C14.54 15.8333 14.1667 15.46 14.1667 15V14.1667C14.1667 13.7067 14.54 13.3333 15 13.3333H15.8333C16.2933 13.3333 16.6667 13.7067 16.6667 14.1667V15Z" fill="#FF6E4A" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_56_729">
+                                    <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>    
+                        </div>
+                        <div style="width: 464px; height: 72px; display: flex; gap: 8px; flex-direction: column;">
+                            <h4 class="slide_conditioners_text text_start" style="font-size: 20px; color: var(--black-color); margin: 0; line-height: 100%;">Удобно </h4>
+                            <h4 class="slide_conditioners_text text_start" style="margin: 0; font-size: 16px;">Наличный и безналичный расчет, заключаем договор,<br> предоставим акт выполненных работ и кассовый чек</h4>
+                        </div>    
+                    </div> 
+            </div>
+        </div> 
+    </section>
+
+    <section class="installation_our_service" style="margin-bottom: 219px; height: 895px;">
+        <div class="installation_our_service_top" style="height: 184px; margin-bottom: 100px;">
+            <h2 class="installation_first_text" style="text-align: center; margin: 0;">Наши услуги</h2>
+            <h4 class="installation_second_text" style="text-align: center; margin: 0;" >Наши мастера проводят обслуживание всех типов <br> кондиционеров: настенных, кассетных, канальных, напольно <br>-потолочных, VRV и VRF систем</h4>
+        </div>
+        <div class="maintenance_our_service_bottom" style="height: 658px">
+            <div class="maintenance_our_service_item">
+                <img src="image/maintenance_our_service_first.png" style="width: 320px; height: 280px; border-radius: 20px; pointer-events: none">    
+                <div class="installation_our_service_item_text" style="height: 98px ;display: flex; gap: 20px;">
+                    <h2 class="installation_table_item_text_first" style="font-size: 24px; color: var(--black-color); text-align: center;">Обслуживание настенного <br> кондиционера до 4 кВт</h2> 
+                    <div style=" display: flex; flex-direction: row;justify-content: center; gap: 20px;">
+                        <h4 class="installation_table_item_text_second">2 500 руб</h4>
+                        <h4 class="installation_table_item_text_second">за шт</h4>
+                    </div>   
+                </div>
+                <div class="installation_our_service_buttonbox">
+                    <button class="installation_slider_button">
+                        <img src="image/tilted_arrow.svg">
+                    </button>
+                    <button class="basket_button">
+                        <svg width="20" class="basket_icon" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.34137 1.66699L4.32471 4.69199" stroke="#FF6E4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.6582 1.66699L15.6749 4.69199" stroke="#FF6E4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M1.6665 6.54167C1.6665 5 2.4915 4.875 3.5165 4.875H16.4832C17.5082 4.875 18.3332 5 18.3332 6.54167C18.3332 8.33333 17.5082 8.20833 16.4832 8.20833H3.5165C2.4915 8.20833 1.6665 8.33333 1.6665 6.54167Z" stroke="#FF6E4A" stroke-width="1.5" />
+                            <path d="M8.1333 11.667V14.6253" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M11.9668 11.667V14.6253" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M2.9165 8.33301L4.0915 15.533C4.35817 17.1497 4.99984 18.333 7.38317 18.333H12.4082C14.9998 18.333 15.3832 17.1997 15.6832 15.633L17.0832 8.33301" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>  
+            </div> 
+            <div class="maintenance_our_service_item">
+                <img src="image/maintenance_our_service_second.png" style="width: 320px; height: 280px; border-radius: 20px; pointer-events: none">    
+                <div class="installation_our_service_item_text" style="height: 158px;display: flex; gap: 20px;">
+                    <h2 class="installation_table_item_text_first" style="font-size: 24px; color: var(--black-color); text-align: center;">Обслуживание настенного <br> кондиционера до 4 кВт</h2> 
+                    <h4 class="installation_table_item_text_second" style="text-align: center;">с сервис пакетом и мойкой <br> водой высокого давления</h4>
+                    <div style=" display: flex; flex-direction: row;justify-content: center; gap: 20px;">
+                        <h4 class="installation_table_item_text_second">4 500 руб</h4>
+                        <h4 class="installation_table_item_text_second">за шт</h4>
+                    </div>   
+                </div>
+                <div class="installation_our_service_buttonbox">
+                    <button class="installation_slider_button">
+                        <img src="image/tilted_arrow.svg">
+                    </button>
+                    <button class="basket_button">
+                        <svg width="20" class="basket_icon" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.34137 1.66699L4.32471 4.69199" stroke="#FF6E4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.6582 1.66699L15.6749 4.69199" stroke="#FF6E4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M1.6665 6.54167C1.6665 5 2.4915 4.875 3.5165 4.875H16.4832C17.5082 4.875 18.3332 5 18.3332 6.54167C18.3332 8.33333 17.5082 8.20833 16.4832 8.20833H3.5165C2.4915 8.20833 1.6665 8.33333 1.6665 6.54167Z" stroke="#FF6E4A" stroke-width="1.5" />
+                            <path d="M8.1333 11.667V14.6253" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M11.9668 11.667V14.6253" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M2.9165 8.33301L4.0915 15.533C4.35817 17.1497 4.99984 18.333 7.38317 18.333H12.4082C14.9998 18.333 15.3832 17.1997 15.6832 15.633L17.0832 8.33301" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>  
+            </div> 
+            <div class="maintenance_our_service_item">
+                <img src="image/maintenance_our_service_third.png" style="width: 320px; height: 280px; border-radius: 20px; pointer-events: none">    
+                <div class="installation_our_service_item_text" style="height: 158px;display: flex; gap: 20px;">
+                    <h2 class="installation_table_item_text_first" style="font-size: 24px; color: var(--black-color); text-align: center;">Обслуживание <br> кондиционера потолочного <br> типа до 4 кВт</h2> 
+                    <div style=" display: flex; flex-direction: row;justify-content: center; gap: 20px;">
+                        <h4 class="installation_table_item_text_second">6 000 руб</h4>
+                        <h4 class="installation_table_item_text_second">за шт</h4>
+                    </div>   
+                </div>
+                <div class="installation_our_service_buttonbox">
+                    <button class="installation_slider_button">
+                        <img src="image/tilted_arrow.svg">
+                    </button>
+                    <button class="basket_button">
+                        <svg width="20" class="basket_icon" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.34137 1.66699L4.32471 4.69199" stroke="#FF6E4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.6582 1.66699L15.6749 4.69199" stroke="#FF6E4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M1.6665 6.54167C1.6665 5 2.4915 4.875 3.5165 4.875H16.4832C17.5082 4.875 18.3332 5 18.3332 6.54167C18.3332 8.33333 17.5082 8.20833 16.4832 8.20833H3.5165C2.4915 8.20833 1.6665 8.33333 1.6665 6.54167Z" stroke="#FF6E4A" stroke-width="1.5" />
+                            <path d="M8.1333 11.667V14.6253" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M11.9668 11.667V14.6253" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M2.9165 8.33301L4.0915 15.533C4.35817 17.1497 4.99984 18.333 7.38317 18.333H12.4082C14.9998 18.333 15.3832 17.1997 15.6832 15.633L17.0832 8.33301" stroke="#FF6E4A" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>  
+            </div>          
+        </div>    
+    </section>
+
+    <section class="our_product" style="width: var(--normal-width); height: 180px; margin:0px 0px 160px 80px; padding: 0;">
+        <h4 class="slide_text" style="width: var(--normal-width); text-align: center; margin: 0;">Пригороды Москвы, в которых оказываем услугу обслуживания кондиционеров</h4>
+        <h4 class="slide_conditioners_text" style="width: var(--normal-width); text-align: center;">Красногорск Люберцы Мытищи Подольск Химки Одинцово Щелково Зеленоград Реутов Балашиха Раменское Пушкино Домодедово Лобня Ногинск Малаховка Жуковский Поселение Внуковское Фрязино Троицк Щербинка Апрелевка Железнодорожный Старая Купавна Долгопрудный Ивантеевка Лыткарино Королев поселение Филимонковское Опалиха Электросталь Нахабино Котельники Видное Краснознаменск Бронницы Климовск Дедовск Дзержинский Кокошкино </h4>
+    </section>
+
+    <section class="our_product" style="width: var(--normal-width); height: 292px; margin:0px 0px 160px 80px; padding: 0;">
+        <h4 class="slide_text" style="width: var(--normal-width); text-align: center; margin: 0;">ОБСЛУЖИВАЕМ КОНДИЦИОНЕРЫ ВСЕХ МАРОК И МОДЕЛЕЙ</h4>
+        <h4 class="slide_conditioners_text" style="width: var(--normal-width); text-align: center;">ABASK Airwell AUX  Abion Akvilon AVEX AC Electric ALC Axioma Aero Alecord Aeronik Aster Bazzio Bergmann Besshof Bismark Breville CarrierCooper & Hunter CENTEK Chigo CLIMER Comfee Dahatsu Daikin Dantex DAX Denko EcoStar Electra Energolux Euronord FAURA FujiFujitsu Fusion GENERAL GREEN General Climate Green Energy General Electric GoldStar Gree Haier Hitachi HEC Hoapp Hermes Technics Hotpoint HIBERG Hyundai Hisense IGC Jax Kentatsu Kitano Komanchi Korting KRAFT Lanzkraft Loriot Leberg Leran Lessar LG Electronics Marsa MDV Mitsubishi Electric Mitsubishi Heavy Industries Mystery NeoClima Oasis Olimpia Splendid ONE AIR Panasonic Pioneer Polar Bear Quattroclima Rapid ROVER RENOVA Rovex Rix Royal Clima Roda ROYAL PREMIUM Roland Sakata Shivaki SUPRA Samsung Shuft SUZUKI Scarlett SmartWay Systemair Scoole STARWIND Sharp Sunwind TCL Timberk Toshiba Tosot Uniel Vaks Vertex Vestfrost Vico Clima  Weltem WISNOW Zerten</h4>
+    </section>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_left">
+                <img src="image/Logo.png" style="width: 180px; height: 40px;">
+                <div class="footer_left_text">
+                    <div class="footer_contact">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.6467 12.2202C14.6467 12.4602 14.5934 12.7068 14.4801 12.9468C14.3667 13.1868 14.2201 13.4135 14.0267 13.6268C13.7001 13.9868 13.3401 14.2468 12.9334 14.4135C12.5334 14.5802 12.1001 14.6668 11.6334 14.6668C10.9534 14.6668 10.2267 14.5068 9.46006 14.1802C8.6934 13.8535 7.92673 13.4135 7.16673 12.8602C6.40006 12.3002 5.6734 11.6802 4.98006 10.9935C4.2934 10.3002 3.6734 9.5735 3.12006 8.8135C2.5734 8.0535 2.1334 7.2935 1.8134 6.54016C1.4934 5.78016 1.3334 5.0535 1.3334 4.36016C1.3334 3.90683 1.4134 3.4735 1.5734 3.0735C1.7334 2.66683 1.98673 2.2935 2.34006 1.96016C2.76673 1.54016 3.2334 1.3335 3.72673 1.3335C3.9134 1.3335 4.10006 1.3735 4.26673 1.4535C4.44006 1.5335 4.5934 1.6535 4.7134 1.82683L6.26006 4.00683C6.38006 4.1735 6.46673 4.32683 6.52673 4.4735C6.58673 4.6135 6.62006 4.7535 6.62006 4.88016C6.62006 5.04016 6.5734 5.20016 6.48006 5.3535C6.3934 5.50683 6.26673 5.66683 6.10673 5.82683L5.60006 6.3535C5.52673 6.42683 5.4934 6.5135 5.4934 6.62016C5.4934 6.6735 5.50006 6.72016 5.5134 6.7735C5.5334 6.82683 5.5534 6.86683 5.56673 6.90683C5.68673 7.12683 5.8934 7.4135 6.18673 7.76016C6.48673 8.10683 6.80673 8.46016 7.1534 8.8135C7.5134 9.16683 7.86006 9.4935 8.2134 9.7935C8.56006 10.0868 8.84673 10.2868 9.0734 10.4068C9.10673 10.4202 9.14673 10.4402 9.1934 10.4602C9.24673 10.4802 9.30006 10.4868 9.36006 10.4868C9.4734 10.4868 9.56006 10.4468 9.6334 10.3735L10.1401 9.8735C10.3067 9.70683 10.4667 9.58016 10.6201 9.50016C10.7734 9.40683 10.9267 9.36016 11.0934 9.36016C11.2201 9.36016 11.3534 9.38683 11.5001 9.44683C11.6467 9.50683 11.8001 9.5935 11.9667 9.70683L14.1734 11.2735C14.3467 11.3935 14.4667 11.5335 14.5401 11.7002C14.6067 11.8668 14.6467 12.0335 14.6467 12.2202Z" stroke="white" stroke-width="1.6" stroke-miterlimit="10" />
+                        </svg>
+                        <h4 class="footer_text">+7 (920) 831-28-88</h4>
+                    </div>
+                    <div class="footer_contact">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.6667 0.666504H3.33333C2.4496 0.667562 1.60237 1.01909 0.97748 1.64398C0.352588 2.26888 0.00105857 3.11611 0 3.99984L0 11.9998C0.00105857 12.8836 0.352588 13.7308 0.97748 14.3557C1.60237 14.9806 2.4496 15.3321 3.33333 15.3332H12.6667C13.5504 15.3321 14.3976 14.9806 15.0225 14.3557C15.6474 13.7308 15.9989 12.8836 16 11.9998V3.99984C15.9989 3.11611 15.6474 2.26888 15.0225 1.64398C14.3976 1.01909 13.5504 0.667562 12.6667 0.666504ZM3.33333 1.99984H12.6667C13.0659 2.00062 13.4557 2.12085 13.786 2.34504C14.1163 2.56923 14.3719 2.88714 14.52 3.25784L9.41467 8.36384C9.03895 8.73805 8.53028 8.94815 8 8.94815C7.46972 8.94815 6.96105 8.73805 6.58533 8.36384L1.48 3.25784C1.6281 2.88714 1.88374 2.56923 2.21403 2.34504C2.54432 2.12085 2.93414 2.00062 3.33333 1.99984ZM12.6667 13.9998H3.33333C2.8029 13.9998 2.29419 13.7891 1.91912 13.4141C1.54405 13.039 1.33333 12.5303 1.33333 11.9998V4.99984L5.64267 9.3065C6.26842 9.93067 7.11617 10.2812 8 10.2812C8.88383 10.2812 9.73158 9.93067 10.3573 9.3065L14.6667 4.99984V11.9998C14.6667 12.5303 14.456 13.039 14.0809 13.4141C13.7058 13.7891 13.1971 13.9998 12.6667 13.9998Z" fill="white" />
+                        </svg>
+                        <h4 class="footer_text">msk.atmosfera@yandex.ru</h4>
+                    </div>
+                    <div class="footer_contact">
+                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.9931 0.666504H5.99994C8.18582 0.666504 10.6224 1.94486 11.2587 4.74365C11.9771 7.91178 10.0462 10.6456 8.16693 12.4526L8.16498 12.4546C7.56186 13.0405 6.78156 13.3335 5.99994 13.3335C5.2188 13.3335 4.43786 13.0403 3.82709 12.4526H3.82611C1.94739 10.6461 0.0163551 7.90579 0.734314 4.73779C1.37019 1.93992 3.81251 0.666594 5.9931 0.666504ZM5.99994 3.27295C4.56383 3.27298 3.40033 4.43741 3.40033 5.87354C3.40053 7.30949 4.56395 8.47311 5.99994 8.47314C7.43596 8.47314 8.59935 7.30951 8.59955 5.87354C8.59955 4.43739 7.43608 3.27295 5.99994 3.27295Z" stroke="white" />
+                        </svg>
+                        <h4 class="footer_text" style="line-height: 120%;">г. Москва, Михайловский пр-д, 3, стр.66, оф.328</h4>
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: row; gap: 16px;">
+                    <button class="footer_button">
+                        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.8936 13.24C4.05997 13.24 0.161919 8.55636 0 0.760254H3.42429C3.53823 6.48139 6.05997 8.90718 8.05997 9.40493V0.760254H11.2834V5.69579C13.2564 5.48289 15.3313 3.23402 16.03 0.760254H19.2534C18.7196 3.35396 17.1304 5.60883 14.8666 6.98214C17.3943 8.23851 19.2624 10.5174 20 13.24H16.4528C15.7841 10.8472 13.7451 9.09009 11.2804 8.77824V13.24H10.8936Z" fill="#303030" />
+                        </svg>
+                    </button>
+                    <button class="footer_button">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.5817 3.15508C19.3517 2.28924 18.6742 1.60675 17.8133 1.37508C16.2542 0.955078 10 0.955078 10 0.955078C10 0.955078 3.74583 0.955078 2.18583 1.37508C1.32583 1.60675 0.648333 2.28841 0.418333 3.15508C0 4.72508 0 8.00008 0 8.00008C0 8.00008 0 11.2751 0.418333 12.8451C0.648333 13.7109 1.32583 14.3934 2.18667 14.6251C3.74583 15.0451 10 15.0451 10 15.0451C10 15.0451 16.2542 15.0451 17.8142 14.6251C18.6742 14.3934 19.3517 13.7117 19.5825 12.8451C20 11.2751 20 8.00008 20 8.00008C20 8.00008 20 4.72508 19.5817 3.15508ZM7.955 10.9742V5.02591L13.1817 8.00008L7.955 10.9742Z" fill="#303030" />
+                        </svg>
+                    </button>
+                </div>
+                
+            </div> 
+            <div class="footer_right">
+                <div class="footer_right_first_column">
+                    <div class="footer_right_first_column" style="width: 136px; height: 92px;">
+                        <h4 class="footer_text orange-color medium_weight">Каталог</h4>
+                        <div style="height: 48px; display: flex; justify-content: space-between; flex-direction: column;">
+                            <h4 class="footer_text">VRV/VRF системы</h4>  
+                            <h4 class="footer_text">Кондиционеры</h4>  
+                        </div>
+                    </div>
+                    <div class="footer_right_first_column" style="width: 184px; height: 124px;">
+                        <h4 class="footer_text orange-color medium_weight">Наши предложения</h4>
+                        <div style="height: 80px; display: flex; justify-content: space-between; flex-direction: column;">
+                            <h4 class="footer_text">Новинки</h4>  
+                            <h4 class="footer_text">Популярные товары</h4>
+                            <h4 class="footer_text">Рекомендуемые товары</h4>  
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_right_second_column">
+                    <h4 class="footer_text orange-color medium_weight">Помощь и сервисы</h4>
+                        <div style="height: 240px; display: flex; justify-content: space-between; flex-direction: column;">
+                            <h4 class="footer_text">Главная</h4>  
+                            <h4 class="footer_text">Акции</h4>
+                            <h4 class="footer_text">Услуги</h4>  
+                            <h4 class="footer_text">Бренды</h4>
+                            <h4 class="footer_text">Доставка</h4>
+                            <h4 class="footer_text">Вопрос ответ</h4>
+                            <h4 class="footer_text">Каталог</h4>
+                            <h4 class="footer_text">Контакты</h4>
+                        </div>    
+                </div>   
+            </div>          
+        </div>
+    </footer>
+
+    <script src="scripts/slider_maintenance.js"></script>
+    <script src="scripts/toggle.js"></script>
+</body>

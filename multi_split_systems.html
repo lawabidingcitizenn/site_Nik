@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="installation_style.css">
+    <link rel="stylesheet" href="maintenance.css">
+    <link rel="stylesheet" href="refueling.css">
+    <link rel="stylesheet" href="multi_split.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="scripts/multi_split_filter.js">
+    <link rel="stylesheet" href="scripts/multi_split_filter_main.js">
+    <link rel="stylesheet" href="scripts/multi_split_filter_first.js">
+    <link rel="stylesheet" href="scripts/range_slider.js">
+    <link rel="stylesheet" href="scripts/filter.js">
+    <link rel="stylesheet" href="scripts/in_basket.js">
+    <link rel="stylesheet" href="scripts/room_area.js">
+    <link rel="stylesheet" href="scripts/filter_block_visible.js">
+    <link rel="stylesheet" href="scripts/slider.js">
+    <title>Мульти сплит-системы</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header_content container">
+
+            <img src="image/Logo.png" class="logo">
+
+            <div class="search_bar">
+                <div class="search_bar-content">
+                    <div class="search_bar-icon">
+                        <img src="image/search.svg" class="search">
+
+                    </div>
+                    <input id="search-input" type="text" class="search_bar-input" autocomplete="off"
+                        placeholder="что вы ищете?" name="q  " hx-trigger="keyup changed delay:500ms"
+                        hx-target="#search-container">
+                </div>
+            </div>
+
+            <div class="button-bar">
+                <button id="liked" class="button_navigation"><img src="image/heart.svg"> </button>
+                <button id="arrow" class="button_navigation"><img src="image/arrow.svg"> </button>
+                <button id="arrow" class="button_navigation"><img src="image/shopping.svg"> </button>
+            </div>
+            <div class="phone-bar">
+                <img src="image/call.svg" class="search" style="margin:0px 13px;">
+                <h4 class="phone-text">+7 (920) 831-28-88</h4>
+            </div>
+            <button name="auth" class="authauthorization">войти</button>
+
+
+        </div>
+        <div class="header_second">
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                главная
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                акции
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                услуги
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                бренды
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                доставка
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                вопрос ответ
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                каталог
+            </a>
+            <a href="" class="navigation">
+                <svg class="navigation_button" width="9" height="8" viewBox="0 0 9 8" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.5" cy="4" r="3" stroke-width="2" />
+                </svg>
+                контакты
+            </a>
+        </div>
+    </header>
+
+    <section class="split_sistems_about" style="padding-bottom: 122px;">
+        <div class="split_sistems_about_top">
+            <h2 class="installation_conditioners_section_top_text" style="width: 600px; height: 300px;">
+                Мульти-сплит <br>
+                системы <br>
+                с доставкой <br>
+                и установкой <br>
+                в Москве
+            </h2>
+            <div class="split_sistems_about_top_right">
+                <h4 class="installation_conditioners_section_top_graytext" style="text-align: center;">
+                    это комплексное климатическое оборудование, <br>
+                    предназначенное для охлаждения/обогрева воздуха сразу в <br>
+                    нескольких помещениях или во всех комнатах квартиры при <br>
+                    установке одного общего внешнего блока
+                </h4>
+                <div style="align-items: center;">
+                    <button class="about_button">
+                        Оставьте заявку
+                    </button>
+
+                    <button class="about_second_button">
+                        <img src="image/tilted_arrow.svg">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <img src="image/multi_split_about_photo.png" alt="">
+    </section>
+
+    <section class="multi_split_button_box" >
+        <div class="multi_split_button_box_button">
+            <h3>Мульти сплит-системы</h3>
+            <h4>на 2 комнаты</h4>
+            <button class="slider_button multi_split_img" style="cursor: pointer;">
+                <img src="image/tilted_arrow.svg">
+            </button>
+        </div>
+        <div class="multi_split_button_box_button">
+            <h3>Мульти сплит-системы</h3>
+            <h4>на 3 комнаты</h4>
+            <button class="slider_button multi_split_img" style="cursor: pointer;">
+                <img src="image/tilted_arrow.svg">
+            </button>
+        </div>
+        <div class="multi_split_button_box_button">
+            <h3>Мульти сплит-системы</h3>
+            <h4>на 4 комнаты</h4>
+            <button class="slider_button multi_split_img" style="cursor: pointer;">
+                <img src="image/tilted_arrow.svg">
+            </button>
+        </div>
+    </section>
+
+    <div class="filter_main_container">
+        <div class="filter-container">
+            <div class="filter_block_div">
+                <div class="filter-container_button" onclick="toggleFilterFirst(this)">
+                    <span class="filter-title" style="font-size: 20px; text-transform: lowercase;"> уточнить
+                        раздел</span>
+                    <div class="arrow-icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="filter-block invisible">
+                    <div class="filter-list open">
+                        <ul>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text open">Мульти-сплит системы
+                                        Ballu</span></a>
+                                <p class="navigation filter_ahref_second">5</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Daikin</span></a>
+                                <p class="navigation filter_ahref_second">7</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Electrolux</span></a>
+                                <p class="navigation filter_ahref_second">8</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Energolux</span></a>
+                                <p class="navigation filter_ahref_second">6</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Funai</span></a>
+                                <p class="navigation filter_ahref_second">10</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Haier</span></a>
+                                <p class="navigation filter_ahref_second">27</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Hisense</span></a>
+                                <p class="navigation filter_ahref_second">17</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Hitachi</span></a>
+                                <p class="navigation filter_ahref_second">6</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Kentatsu</span></a>
+                                <p class="navigation filter_ahref_second">9</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        LG</span></a>
+                                <p class="navigation filter_ahref_second">4</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы Royal
+                                        Clima</span></a>
+                                <p class="navigation filter_ahref_second">9</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы
+                                        Toshiba</span></a>
+                                <p class="navigation filter_ahref_second">9</p>
+                            </li>
+                            <li>
+                                <a class="filter_ahref" href=""><span class="filter-text">Мульти-сплит системы Ultima
+                                        Comfort</span></a>
+                                <p class="navigation filter_ahref_second">3</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="filter_block_div ">
+                <div class="filter-container_button" onclick="toggleFilterContainer(this)">
+                    <span class="filter-title" style="font-size: 20px; text-transform: lowercase;">фильтр по
+                        параметрам</span>
+                    <div class="arrow-icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="filter-item_block invisible">
+                    <div class="filter-block invisible">
+                        <div class="filter-header" onclick="toggleFilterList(this, event)">
+                            <span class="filter-title">Розничная цена</span>
+                            <div class="arrow-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                        stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="filter-list">
+                            <div class="">
+
+                            </div>
+                            <div class="filter_price-inputs">
+                                <!-- "от" — placeholder, выровнен слева -->
+                                <input type="number" id="filter_price-min" value="5522" min="5522" max="500000"
+                                    placeholder="от 5522">
+                                <!-- "до" — placeholder, выровнен слева -->
+                                <input type="number" id="filter_price-max" value="500000" min="5522" max="500000"
+                                    placeholder="до 500000">
+                            </div>
+
+                            <div class="filter_price-container">
+                                <div class="filter_price-track" id="filter_price-track">
+                                    <div class="filter_price-range" id="filter_price-range"></div>
+                                    <div class="filter_price-handle" id="filter_price-min-handle">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="2" y="2" width="12" height="12" rx="6" fill="white" />
+                                            <rect x="2" y="2" width="12" height="12" rx="6" stroke="#FF6E4A"
+                                                stroke-width="4" />
+                                        </svg>
+                                    </div>
+                                    <div class="filter_price-handle" id="filter_price-max-handle">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="2" y="2" width="12" height="12" rx="6" fill="white" />
+                                            <rect x="2" y="2" width="12" height="12" rx="6" stroke="#FF6E4A"
+                                                stroke-width="4" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-block invisible">
+                        <div class="filter-header" onclick="toggleFilterList(this, event)">
+                            <span class="filter-title">Производитель</span>
+                            <div class="arrow-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                        stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="filter-list">
+                            <ul>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="cat1">
+                                        <label for="cat1">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">AUX</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="cat2">
+                                        <label for="cat2">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Ballu</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="cat3">
+                                        <label for="cat3">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Daikin</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="cat4">
+                                        <label for="cat4">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Electrolux</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="cat5">
+                                        <label for="cat5">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Energolux</span>
+                                </li>
+                                <li>
+                                    <a href="" class="dop_info_text">Показать еще</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Блок 2: Компрессор -->
+                    <div class="filter-block invisible">
+                        <div class="filter-header" onclick="toggleFilterList(this, event)">
+                            <span class="filter-title">Компрессор</span>
+                            <div class="arrow-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                        stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="filter-list">
+                            <ul>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="com1">
+                                        <label for="com1">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Инвертор</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Блок 3: Бренд -->
+                    <div class="filter-block invisible">
+                        <div class="filter-header" onclick="toggleFilterList(this, event)">
+                            <span class="filter-title">Цвет внутреннего блока</span>
+                            <div class="arrow-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                        stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="filter-list">
+                            <ul>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="color1">
+                                        <label for="color1">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Белый</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="color2">
+                                        <label for="color2">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Белый / Серебристый / Черный</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="color3">
+                                        <label for="color3">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Белый / Серебристый / Черный / Золотой</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="color4">
+                                        <label for="color4">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Белый / Серебристый / Черный / Красный / <br>
+                                        Шампань</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="color5">
+                                        <label for="color5">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Белый / Черный</span>
+                                </li>
+                                <li>
+                                    <a href="" class="dop_info_text">Показать еще</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Блок 4: Доступность -->
+                    <div class="filter-block invisible">
+                        <div class="filter-header" onclick="toggleFilterList(this, event)">
+                            <span class="filter-title">Рекомендуемая площадь</span>
+                            <div class="arrow-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                        stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="filter-list">
+                            <ul>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="rec1">
+                                        <label for="rec1">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">до 22</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="rec2">
+                                        <label for="rec2">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">до 22 / до 27</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="rec3">
+                                        <label for="rec3">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">до 22 / до 27 / до 37</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="rec4">
+                                        <label for="rec4">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">до 22 / до 27 / до 37 / до 55</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="rec5">
+                                        <label for="rec5">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">до 22 / до 27 / до 37 / до 55 / до 75</span>
+                                </li>
+                                <li>
+                                    <a href="" class="dop_info_text">Свернуть</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="filter-block invisible">
+                        <div class="filter-header" onclick="toggleFilterList(this, event)">
+                            <span class="filter-title">Особенности</span>
+                            <div class="arrow-icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.14258 6.05701L7.99858 1.20101L12.8546 6.05701" stroke="#8589A3"
+                                        stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8 14.8008L8 1.33678" stroke="#8589A3" stroke-width="1.6"
+                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="filter-list">
+                            <ul>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="featur1">
+                                        <label for="featur1">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Датчик движения</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="featur2">
+                                        <label for="featur2">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Дизайнерские</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="featur3">
+                                        <label for="featur3">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Дизайнерские / Управление по WI-FI <br> (Встроенное) /
+                                        Датчик движения</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="featur4">
+                                        <label for="featur4">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">Дизайнерские / Управление по WI-FI <br> (Встроенное) /
+                                        Управление по WI-FI (Опция) <br> / Датчик движения / Подмес свежего <br> воздуха
+                                        / Работает с Алисой</span>
+                                </li>
+                                <li>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="featur5">
+                                        <label for="featur5">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1"
+                                                    stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <span class="filter-text">до 22 / до 27 / до 37 / до 55 / до 75</span>
+                                </li>
+                                <li>
+                                    <a href="" class="dop_info_text">Свернуть</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <button class="about_button" style="width: 200px;">
+                    Показать
+                </button>
+                <button class="about_button" style="background-color: var(--black-color); width: 200px;">
+                    Сбросить
+                </button>
+            </div>
+        </div>
+        <div class="filter_right">
+            <div class="filter_right_sort" id="sortFilter">
+                <span class="sort-label">сортировать по</span>
+                <span class="sort-value" id="sortValue">Популярности</span>
+                <span class="sort-arrow" id="sortArrow">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.14453 6.05664L8.00053 1.20064L12.8565 6.05664" stroke="#8589A3" stroke-width="1.6"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7.99609 14.464L7.99609 1" stroke="#8589A3" stroke-width="1.6" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+                <div class="sort-dropdown" id="sortDropdown">
+                    <div class="sort-option active" data-value="Популярности">Популярности</div>
+                    <div class="sort-option" data-value="Алфавиту">Алфавиту</div>
+                    <div class="sort-option" data-value="Увеличению цены">Увеличению цены</div>
+                    <div class="sort-option" data-value="Уменьшению цены">Уменьшению цены</div>
+                </div>
+            </div>
+            <div class="filter_right_block">
+                <div class="filter_right_block_elementbox" id="filter_right_block_elementbox">
+                    <div class="filter_element_main">
+                        <div class="filter_element">
+                            <div class="image-container">
+                                <img class="hover-image" src="image/multi_split/Kentatsu_KSGPA35HZRN1.png" alt="">
+                                <div class="arrow-overlay">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.12891 1.29199L17.7132 1.29199L17.7132 9.87627" stroke="white"
+                                            stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5918 16.4121L17.5918 1.41211" stroke="white" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter_element_textbox">
+                                <p class="filter_element_name">Мульти-сплит система Kentatsu KSGPA35HZRN1 Внутренний
+                                    блок настенного типа</p>
+                                <p class="filter_element_price">16 400 руб</p>
+                            </div>
+                            <div class="filter_element_hoverbox">
+                                <div class="filter_element_hoverbox_top">
+                                    <div class="filter_in_basket" role="button" tabindex="0" data-count="0">
+                                        <svg class="filter_in_basket_icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.87232 1.60071L3.45898 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.127 1.60071L12.5403 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M1.33203 5.50045C1.33203 4.26711 1.99203 4.16711 2.81203 4.16711H13.1854C14.0054 4.16711 14.6654 4.26711 14.6654 5.50045C14.6654 6.93378 14.0054 6.83378 13.1854 6.83378H2.81203C1.99203 6.83378 1.33203 6.93378 1.33203 5.50045Z"
+                                                stroke="white" stroke-width="1.2" />
+                                            <path d="M6.50586 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path d="M9.57422 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M2.33203 6.93353L3.27203 12.6935C3.48536 13.9869 3.9987 14.9335 5.90536 14.9335H9.92537C11.9987 14.9335 12.3054 14.0269 12.5454 12.7735L13.6654 6.93353"
+                                                stroke="white" stroke-width="1.2" stroke-linecap="round" />
+                                        </svg>
+                                        <span class="filter_in_basket_text">в корзину</span>
+                                        <div class="filter_in_basket_counter-container">
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_plus">
+                                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_497_299)">
+                                                        <path
+                                                            d="M7.33333 3.33333H4.66667V0.666667C4.66667 0.489856 4.59643 0.320287 4.4714 0.195262C4.34638 0.070238 4.17681 0 4 0C3.82319 0 3.65362 0.070238 3.5286 0.195262C3.40357 0.320287 3.33333 0.489856 3.33333 0.666667V3.33333H0.666667C0.489856 3.33333 0.320287 3.40357 0.195262 3.5286C0.070238 3.65362 0 3.82319 0 4C0 4.17681 0.070238 4.34638 0.195262 4.4714C0.320287 4.59643 0.489856 4.66667 0.666667 4.66667H3.33333V7.33333C3.33333 7.51014 3.40357 7.67971 3.5286 7.80474C3.65362 7.92976 3.82319 8 4 8C4.17681 8 4.34638 7.92976 4.4714 7.80474C4.59643 7.67971 4.66667 7.51014 4.66667 7.33333V4.66667H7.33333C7.51014 4.66667 7.67971 4.59643 7.80474 4.4714C7.92976 4.34638 8 4.17681 8 4C8 3.82319 7.92976 3.65362 7.80474 3.5286C7.67971 3.40357 7.51014 3.33333 7.33333 3.33333Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_497_299">
+                                                            <rect width="8" height="8" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </button>
+                                            <span class="filter_in_basket_counter" style="padding: 0;">1</span>
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_minus">
+                                                <svg width="6" height="2" viewBox="0 0 6 2" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M4.89453 1.68359H0.792969C0.611668 1.68359 0.437794 1.61157 0.309595 1.48337C0.181396 1.35518 0.109375 1.1813 0.109375 1C0.109375 0.8187 0.181396 0.644825 0.309595 0.516626C0.437794 0.388427 0.611668 0.316406 0.792969 0.316406H4.89453C5.07583 0.316406 5.24971 0.388427 5.3779 0.516626C5.5061 0.644825 5.57812 0.8187 5.57812 1C5.57812 1.1813 5.5061 1.35518 5.3779 1.48337C5.24971 1.61157 5.07583 1.68359 4.89453 1.68359Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="filter_montagebox">
+                                        <label class="filter_custom-checkbox">
+                                            <input type="checkbox" class="filter_custom-checkbox_input" />
+                                            <span class="filter_custom-checkbox_box">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="custom-checkbox_check">
+                                                    <path d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </label>  
+                                        <p class="filter_element_name"> +12 000 руб с монтажом </p>  
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_middle">
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.40375 1.20068L2.59375 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7.5957 1.20068L9.4057 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M1 4.12549C1 3.20049 1.495 3.12549 2.11 3.12549H9.89C10.505 3.12549 11 3.20049 11 4.12549C11 5.20049 10.505 5.12549 9.89 5.12549H2.11C1.495 5.12549 1 5.20049 1 4.12549Z" stroke="#8589A3" stroke-width="0.9" />
+                                                <path d="M4.87891 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M7.17969 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M1.75 5.20044L2.455 9.52044C2.615 10.4904 3 11.2004 4.43 11.2004H7.445C9 11.2004 9.23 10.5204 9.41 9.58044L10.25 5.20044" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                            </svg> 
+                                            купить в 1 клик       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.5 8.99976H1V8.72976L3.5 6.22976L5.4 8.12976C5.49368 8.22288 5.62041 8.27515 5.7525 8.27515C5.88459 8.27515 6.01132 8.22288 6.105 8.12976L9.855 4.37976C9.90186 4.33327 9.93906 4.27797 9.96445 4.21704C9.98983 4.15611 10.0029 4.09076 10.0029 4.02476C10.0029 3.95875 9.98983 3.8934 9.96445 3.83247C9.93906 3.77154 9.90186 3.71624 9.855 3.66976C9.76132 3.57663 9.63459 3.52436 9.5025 3.52436C9.37041 3.52436 9.24368 3.57663 9.15 3.66976L5.75 7.06976L3.855 5.16976C3.76132 5.07663 3.63459 5.02436 3.5025 5.02436C3.37041 5.02436 3.24368 5.07663 3.15 5.16976L1 7.31476V4.72976L3.5 2.22976L4.9 3.62976C4.99368 3.72288 5.12041 3.77515 5.2525 3.77515C5.38459 3.77515 5.51132 3.72288 5.605 3.62976L8 1.23476L9.095 2.32976C9.18915 2.42324 9.31659 2.4755 9.44927 2.47503C9.58195 2.47457 9.70901 2.42141 9.8025 2.32726C9.89599 2.2331 9.94825 2.10567 9.94778 1.97299C9.94731 1.84031 9.89415 1.71324 9.8 1.61976L8.345 0.174756C8.25132 0.0816303 8.12459 0.0293595 7.9925 0.0293595C7.86041 0.0293595 7.73368 0.0816303 7.64 0.174756L5.24 2.57476L3.845 1.17476C3.75132 1.08163 3.62459 1.02936 3.4925 1.02936C3.36041 1.02936 3.23368 1.08163 3.14 1.17476L1 3.31476V0.499756C1 0.367148 0.947322 0.239971 0.853553 0.146202C0.759785 0.0524343 0.632608 -0.000244141 0.5 -0.000244141C0.367392 -0.000244141 0.240215 0.0524343 0.146447 0.146202C0.0526784 0.239971 0 0.367148 0 0.499756V9.49976C0 9.63236 0.0526784 9.75954 0.146447 9.85331C0.240215 9.94708 0.367392 9.99976 0.5 9.99976H9.5C9.63261 9.99976 9.75979 9.94708 9.85355 9.85331C9.94732 9.75954 10 9.63236 10 9.49976C10 9.36715 9.94732 9.23997 9.85355 9.1462C9.75979 9.05243 9.63261 8.99976 9.5 8.99976Z" fill="#8589A3" />
+                                            </svg>
+                                            сравнение      
+                                        </div>
+                                    </div>
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.31 10.4048C6.14 10.4648 5.86 10.4648 5.69 10.4048C4.24 9.9098 1 7.8448 1 4.3448C1 2.7998 2.245 1.5498 3.78 1.5498C4.69 1.5498 5.495 1.9898 6 2.6698C6.505 1.9898 7.315 1.5498 8.22 1.5498C9.755 1.5498 11 2.7998 11 4.3448C11 7.8448 7.76 9.9098 6.31 10.4048Z" stroke="#8589A3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            в избранное       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element" style="color: var(--orange);">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.87459 10.3316C3.53396 10.3317 3.20728 10.1963 2.96662 9.95526L0.22153 7.21118C-0.0738435 6.91571 -0.0738435 6.43675 0.22153 6.14129C0.516999 5.84591 0.995953 5.84591 1.29142 6.14129L3.87459 8.72446L10.7086 1.89048C11.004 1.5951 11.483 1.5951 11.7785 1.89048C12.0738 2.18594 12.0738 2.6649 11.7785 2.96037L4.78256 9.95526C4.5419 10.1963 4.21523 10.3317 3.87459 10.3316Z" fill="#FF6E4A" />
+                                            </svg>
+                                            в наличии      
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_bottom">
+                                    Площадь помещения, кв.м.
+                                    <div class="filter_element_hoverbox_bottom_itembox">
+                                        <div class="filter_element_hoverbox_bottom_item active">до 23</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 25</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 33</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 51</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 62</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter_element_main">
+                        <div class="filter_element">
+                            <div class="image-container">
+                                <img class="hover-image" src="image/multi_split/Haier_AB25S2SA1FA.png" alt="">
+                                <div class="arrow-overlay">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.12891 1.29199L17.7132 1.29199L17.7132 9.87627" stroke="white"
+                                            stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5918 16.4121L17.5918 1.41211" stroke="white" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter_element_textbox">
+                                <p class="filter_element_name">Мульти-сплит система Haier AB25S2SA1FA Внутренний блок
+                                    кассетного типа</p>
+                                <p class="filter_element_price">47 412 руб</p>
+                            </div>
+                            <div class="filter_element_hoverbox">
+                                <div class="filter_element_hoverbox_top">
+                                    <div class="filter_in_basket" role="button" tabindex="0" data-count="0">
+                                        <svg class="filter_in_basket_icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.87232 1.60071L3.45898 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.127 1.60071L12.5403 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M1.33203 5.50045C1.33203 4.26711 1.99203 4.16711 2.81203 4.16711H13.1854C14.0054 4.16711 14.6654 4.26711 14.6654 5.50045C14.6654 6.93378 14.0054 6.83378 13.1854 6.83378H2.81203C1.99203 6.83378 1.33203 6.93378 1.33203 5.50045Z"
+                                                stroke="white" stroke-width="1.2" />
+                                            <path d="M6.50586 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path d="M9.57422 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M2.33203 6.93353L3.27203 12.6935C3.48536 13.9869 3.9987 14.9335 5.90536 14.9335H9.92537C11.9987 14.9335 12.3054 14.0269 12.5454 12.7735L13.6654 6.93353"
+                                                stroke="white" stroke-width="1.2" stroke-linecap="round" />
+                                        </svg>
+                                        <span class="filter_in_basket_text">в корзину</span>
+                                        <div class="filter_in_basket_counter-container">
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_plus">
+                                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_497_299)">
+                                                        <path
+                                                            d="M7.33333 3.33333H4.66667V0.666667C4.66667 0.489856 4.59643 0.320287 4.4714 0.195262C4.34638 0.070238 4.17681 0 4 0C3.82319 0 3.65362 0.070238 3.5286 0.195262C3.40357 0.320287 3.33333 0.489856 3.33333 0.666667V3.33333H0.666667C0.489856 3.33333 0.320287 3.40357 0.195262 3.5286C0.070238 3.65362 0 3.82319 0 4C0 4.17681 0.070238 4.34638 0.195262 4.4714C0.320287 4.59643 0.489856 4.66667 0.666667 4.66667H3.33333V7.33333C3.33333 7.51014 3.40357 7.67971 3.5286 7.80474C3.65362 7.92976 3.82319 8 4 8C4.17681 8 4.34638 7.92976 4.4714 7.80474C4.59643 7.67971 4.66667 7.51014 4.66667 7.33333V4.66667H7.33333C7.51014 4.66667 7.67971 4.59643 7.80474 4.4714C7.92976 4.34638 8 4.17681 8 4C8 3.82319 7.92976 3.65362 7.80474 3.5286C7.67971 3.40357 7.51014 3.33333 7.33333 3.33333Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_497_299">
+                                                            <rect width="8" height="8" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </button>
+                                            <span class="filter_in_basket_counter" style="padding: 0;">1</span>
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_minus">
+                                                <svg width="6" height="2" viewBox="0 0 6 2" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M4.89453 1.68359H0.792969C0.611668 1.68359 0.437794 1.61157 0.309595 1.48337C0.181396 1.35518 0.109375 1.1813 0.109375 1C0.109375 0.8187 0.181396 0.644825 0.309595 0.516626C0.437794 0.388427 0.611668 0.316406 0.792969 0.316406H4.89453C5.07583 0.316406 5.24971 0.388427 5.3779 0.516626C5.5061 0.644825 5.57812 0.8187 5.57812 1C5.57812 1.1813 5.5061 1.35518 5.3779 1.48337C5.24971 1.61157 5.07583 1.68359 4.89453 1.68359Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="filter_montagebox">
+                                        <label class="filter_custom-checkbox">
+                                            <input type="checkbox" class="filter_custom-checkbox_input" />
+                                            <span class="filter_custom-checkbox_box">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="custom-checkbox_check">
+                                                    <path d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </label>  
+                                        <p class="filter_element_name"> +12 000 руб с монтажом </p>  
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_middle">
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.40375 1.20068L2.59375 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7.5957 1.20068L9.4057 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M1 4.12549C1 3.20049 1.495 3.12549 2.11 3.12549H9.89C10.505 3.12549 11 3.20049 11 4.12549C11 5.20049 10.505 5.12549 9.89 5.12549H2.11C1.495 5.12549 1 5.20049 1 4.12549Z" stroke="#8589A3" stroke-width="0.9" />
+                                                <path d="M4.87891 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M7.17969 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M1.75 5.20044L2.455 9.52044C2.615 10.4904 3 11.2004 4.43 11.2004H7.445C9 11.2004 9.23 10.5204 9.41 9.58044L10.25 5.20044" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                            </svg> 
+                                            купить в 1 клик       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.5 8.99976H1V8.72976L3.5 6.22976L5.4 8.12976C5.49368 8.22288 5.62041 8.27515 5.7525 8.27515C5.88459 8.27515 6.01132 8.22288 6.105 8.12976L9.855 4.37976C9.90186 4.33327 9.93906 4.27797 9.96445 4.21704C9.98983 4.15611 10.0029 4.09076 10.0029 4.02476C10.0029 3.95875 9.98983 3.8934 9.96445 3.83247C9.93906 3.77154 9.90186 3.71624 9.855 3.66976C9.76132 3.57663 9.63459 3.52436 9.5025 3.52436C9.37041 3.52436 9.24368 3.57663 9.15 3.66976L5.75 7.06976L3.855 5.16976C3.76132 5.07663 3.63459 5.02436 3.5025 5.02436C3.37041 5.02436 3.24368 5.07663 3.15 5.16976L1 7.31476V4.72976L3.5 2.22976L4.9 3.62976C4.99368 3.72288 5.12041 3.77515 5.2525 3.77515C5.38459 3.77515 5.51132 3.72288 5.605 3.62976L8 1.23476L9.095 2.32976C9.18915 2.42324 9.31659 2.4755 9.44927 2.47503C9.58195 2.47457 9.70901 2.42141 9.8025 2.32726C9.89599 2.2331 9.94825 2.10567 9.94778 1.97299C9.94731 1.84031 9.89415 1.71324 9.8 1.61976L8.345 0.174756C8.25132 0.0816303 8.12459 0.0293595 7.9925 0.0293595C7.86041 0.0293595 7.73368 0.0816303 7.64 0.174756L5.24 2.57476L3.845 1.17476C3.75132 1.08163 3.62459 1.02936 3.4925 1.02936C3.36041 1.02936 3.23368 1.08163 3.14 1.17476L1 3.31476V0.499756C1 0.367148 0.947322 0.239971 0.853553 0.146202C0.759785 0.0524343 0.632608 -0.000244141 0.5 -0.000244141C0.367392 -0.000244141 0.240215 0.0524343 0.146447 0.146202C0.0526784 0.239971 0 0.367148 0 0.499756V9.49976C0 9.63236 0.0526784 9.75954 0.146447 9.85331C0.240215 9.94708 0.367392 9.99976 0.5 9.99976H9.5C9.63261 9.99976 9.75979 9.94708 9.85355 9.85331C9.94732 9.75954 10 9.63236 10 9.49976C10 9.36715 9.94732 9.23997 9.85355 9.1462C9.75979 9.05243 9.63261 8.99976 9.5 8.99976Z" fill="#8589A3" />
+                                            </svg>
+                                            сравнение      
+                                        </div>
+                                    </div>
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.31 10.4048C6.14 10.4648 5.86 10.4648 5.69 10.4048C4.24 9.9098 1 7.8448 1 4.3448C1 2.7998 2.245 1.5498 3.78 1.5498C4.69 1.5498 5.495 1.9898 6 2.6698C6.505 1.9898 7.315 1.5498 8.22 1.5498C9.755 1.5498 11 2.7998 11 4.3448C11 7.8448 7.76 9.9098 6.31 10.4048Z" stroke="#8589A3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            в избранное       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element" style="color: var(--orange);">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.87459 10.3316C3.53396 10.3317 3.20728 10.1963 2.96662 9.95526L0.22153 7.21118C-0.0738435 6.91571 -0.0738435 6.43675 0.22153 6.14129C0.516999 5.84591 0.995953 5.84591 1.29142 6.14129L3.87459 8.72446L10.7086 1.89048C11.004 1.5951 11.483 1.5951 11.7785 1.89048C12.0738 2.18594 12.0738 2.6649 11.7785 2.96037L4.78256 9.95526C4.5419 10.1963 4.21523 10.3317 3.87459 10.3316Z" fill="#FF6E4A" />
+                                            </svg>
+                                            в наличии      
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_bottom">
+                                    Площадь помещения, кв.м.
+                                    <div class="filter_element_hoverbox_bottom_itembox">
+                                        <div class="filter_element_hoverbox_bottom_item active">до 23</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 25</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 33</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 51</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 62</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter_element_main">
+                        <div class="filter_element">
+                            <div class="image-container">
+                                <img class="hover-image" src="image/multi_split/Toshiba_RAS-B18J2FVG-E.png" alt="">
+                                <div class="arrow-overlay">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.12891 1.29199L17.7132 1.29199L17.7132 9.87627" stroke="white"
+                                            stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5918 16.4121L17.5918 1.41211" stroke="white" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter_element_textbox">
+                                <p class="filter_element_name">Мульти-сплит система Toshiba RAS-B18J2FVG-E Внутренний блок консольного типа</p>
+                                <p class="filter_element_price">140 000 руб</p>
+                            </div>
+                            <div class="filter_element_hoverbox">
+                                <div class="filter_element_hoverbox_top">
+                                    <div class="filter_in_basket" role="button" tabindex="0" data-count="0">
+                                        <svg class="filter_in_basket_icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.87232 1.60071L3.45898 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.127 1.60071L12.5403 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M1.33203 5.50045C1.33203 4.26711 1.99203 4.16711 2.81203 4.16711H13.1854C14.0054 4.16711 14.6654 4.26711 14.6654 5.50045C14.6654 6.93378 14.0054 6.83378 13.1854 6.83378H2.81203C1.99203 6.83378 1.33203 6.93378 1.33203 5.50045Z"
+                                                stroke="white" stroke-width="1.2" />
+                                            <path d="M6.50586 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path d="M9.57422 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M2.33203 6.93353L3.27203 12.6935C3.48536 13.9869 3.9987 14.9335 5.90536 14.9335H9.92537C11.9987 14.9335 12.3054 14.0269 12.5454 12.7735L13.6654 6.93353"
+                                                stroke="white" stroke-width="1.2" stroke-linecap="round" />
+                                        </svg>
+                                        <span class="filter_in_basket_text">в корзину</span>
+                                        <div class="filter_in_basket_counter-container">
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_plus">
+                                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_497_299)">
+                                                        <path
+                                                            d="M7.33333 3.33333H4.66667V0.666667C4.66667 0.489856 4.59643 0.320287 4.4714 0.195262C4.34638 0.070238 4.17681 0 4 0C3.82319 0 3.65362 0.070238 3.5286 0.195262C3.40357 0.320287 3.33333 0.489856 3.33333 0.666667V3.33333H0.666667C0.489856 3.33333 0.320287 3.40357 0.195262 3.5286C0.070238 3.65362 0 3.82319 0 4C0 4.17681 0.070238 4.34638 0.195262 4.4714C0.320287 4.59643 0.489856 4.66667 0.666667 4.66667H3.33333V7.33333C3.33333 7.51014 3.40357 7.67971 3.5286 7.80474C3.65362 7.92976 3.82319 8 4 8C4.17681 8 4.34638 7.92976 4.4714 7.80474C4.59643 7.67971 4.66667 7.51014 4.66667 7.33333V4.66667H7.33333C7.51014 4.66667 7.67971 4.59643 7.80474 4.4714C7.92976 4.34638 8 4.17681 8 4C8 3.82319 7.92976 3.65362 7.80474 3.5286C7.67971 3.40357 7.51014 3.33333 7.33333 3.33333Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_497_299">
+                                                            <rect width="8" height="8" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </button>
+                                            <span class="filter_in_basket_counter" style="padding: 0;">1</span>
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_minus">
+                                                <svg width="6" height="2" viewBox="0 0 6 2" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M4.89453 1.68359H0.792969C0.611668 1.68359 0.437794 1.61157 0.309595 1.48337C0.181396 1.35518 0.109375 1.1813 0.109375 1C0.109375 0.8187 0.181396 0.644825 0.309595 0.516626C0.437794 0.388427 0.611668 0.316406 0.792969 0.316406H4.89453C5.07583 0.316406 5.24971 0.388427 5.3779 0.516626C5.5061 0.644825 5.57812 0.8187 5.57812 1C5.57812 1.1813 5.5061 1.35518 5.3779 1.48337C5.24971 1.61157 5.07583 1.68359 4.89453 1.68359Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="filter_montagebox">
+                                        <label class="filter_custom-checkbox">
+                                            <input type="checkbox" class="filter_custom-checkbox_input" />
+                                            <span class="filter_custom-checkbox_box">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="custom-checkbox_check">
+                                                    <path d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </label>  
+                                        <p class="filter_element_name"> +12 000 руб с монтажом </p>  
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_middle">
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.40375 1.20068L2.59375 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7.5957 1.20068L9.4057 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M1 4.12549C1 3.20049 1.495 3.12549 2.11 3.12549H9.89C10.505 3.12549 11 3.20049 11 4.12549C11 5.20049 10.505 5.12549 9.89 5.12549H2.11C1.495 5.12549 1 5.20049 1 4.12549Z" stroke="#8589A3" stroke-width="0.9" />
+                                                <path d="M4.87891 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M7.17969 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M1.75 5.20044L2.455 9.52044C2.615 10.4904 3 11.2004 4.43 11.2004H7.445C9 11.2004 9.23 10.5204 9.41 9.58044L10.25 5.20044" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                            </svg> 
+                                            купить в 1 клик       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.5 8.99976H1V8.72976L3.5 6.22976L5.4 8.12976C5.49368 8.22288 5.62041 8.27515 5.7525 8.27515C5.88459 8.27515 6.01132 8.22288 6.105 8.12976L9.855 4.37976C9.90186 4.33327 9.93906 4.27797 9.96445 4.21704C9.98983 4.15611 10.0029 4.09076 10.0029 4.02476C10.0029 3.95875 9.98983 3.8934 9.96445 3.83247C9.93906 3.77154 9.90186 3.71624 9.855 3.66976C9.76132 3.57663 9.63459 3.52436 9.5025 3.52436C9.37041 3.52436 9.24368 3.57663 9.15 3.66976L5.75 7.06976L3.855 5.16976C3.76132 5.07663 3.63459 5.02436 3.5025 5.02436C3.37041 5.02436 3.24368 5.07663 3.15 5.16976L1 7.31476V4.72976L3.5 2.22976L4.9 3.62976C4.99368 3.72288 5.12041 3.77515 5.2525 3.77515C5.38459 3.77515 5.51132 3.72288 5.605 3.62976L8 1.23476L9.095 2.32976C9.18915 2.42324 9.31659 2.4755 9.44927 2.47503C9.58195 2.47457 9.70901 2.42141 9.8025 2.32726C9.89599 2.2331 9.94825 2.10567 9.94778 1.97299C9.94731 1.84031 9.89415 1.71324 9.8 1.61976L8.345 0.174756C8.25132 0.0816303 8.12459 0.0293595 7.9925 0.0293595C7.86041 0.0293595 7.73368 0.0816303 7.64 0.174756L5.24 2.57476L3.845 1.17476C3.75132 1.08163 3.62459 1.02936 3.4925 1.02936C3.36041 1.02936 3.23368 1.08163 3.14 1.17476L1 3.31476V0.499756C1 0.367148 0.947322 0.239971 0.853553 0.146202C0.759785 0.0524343 0.632608 -0.000244141 0.5 -0.000244141C0.367392 -0.000244141 0.240215 0.0524343 0.146447 0.146202C0.0526784 0.239971 0 0.367148 0 0.499756V9.49976C0 9.63236 0.0526784 9.75954 0.146447 9.85331C0.240215 9.94708 0.367392 9.99976 0.5 9.99976H9.5C9.63261 9.99976 9.75979 9.94708 9.85355 9.85331C9.94732 9.75954 10 9.63236 10 9.49976C10 9.36715 9.94732 9.23997 9.85355 9.1462C9.75979 9.05243 9.63261 8.99976 9.5 8.99976Z" fill="#8589A3" />
+                                            </svg>
+                                            сравнение      
+                                        </div>
+                                    </div>
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.31 10.4048C6.14 10.4648 5.86 10.4648 5.69 10.4048C4.24 9.9098 1 7.8448 1 4.3448C1 2.7998 2.245 1.5498 3.78 1.5498C4.69 1.5498 5.495 1.9898 6 2.6698C6.505 1.9898 7.315 1.5498 8.22 1.5498C9.755 1.5498 11 2.7998 11 4.3448C11 7.8448 7.76 9.9098 6.31 10.4048Z" stroke="#8589A3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            в избранное       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element" style="color: var(--orange);">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.87459 10.3316C3.53396 10.3317 3.20728 10.1963 2.96662 9.95526L0.22153 7.21118C-0.0738435 6.91571 -0.0738435 6.43675 0.22153 6.14129C0.516999 5.84591 0.995953 5.84591 1.29142 6.14129L3.87459 8.72446L10.7086 1.89048C11.004 1.5951 11.483 1.5951 11.7785 1.89048C12.0738 2.18594 12.0738 2.6649 11.7785 2.96037L4.78256 9.95526C4.5419 10.1963 4.21523 10.3317 3.87459 10.3316Z" fill="#FF6E4A" />
+                                            </svg>
+                                            в наличии      
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_bottom">
+                                    Площадь помещения, кв.м.
+                                    <div class="filter_element_hoverbox_bottom_itembox">
+                                        <div class="filter_element_hoverbox_bottom_item active">до 23</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 25</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 33</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 51</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 62</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter_element_main">
+                        <div class="filter_element">
+                            <div class="image-container">
+                                <img class="hover-image" src="image/multi_split/Toshiba_RAS-B13CKVG-EE .png" alt="">
+                                <div class="arrow-overlay">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.12891 1.29199L17.7132 1.29199L17.7132 9.87627" stroke="white"
+                                            stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5918 16.4121L17.5918 1.41211" stroke="white" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter_element_textbox">
+                                <p class="filter_element_name">Мульти-сплит система Toshiba RAS-B13CKVG-EE Внутренний блок настенного типа</p>
+                                <p class="filter_element_price">35 500 руб</p>
+                            </div>
+                            <div class="filter_element_hoverbox">
+                                <div class="filter_element_hoverbox_top">
+                                    <div class="filter_in_basket" role="button" tabindex="0" data-count="0">
+                                        <svg class="filter_in_basket_icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.87232 1.60071L3.45898 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.127 1.60071L12.5403 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M1.33203 5.50045C1.33203 4.26711 1.99203 4.16711 2.81203 4.16711H13.1854C14.0054 4.16711 14.6654 4.26711 14.6654 5.50045C14.6654 6.93378 14.0054 6.83378 13.1854 6.83378H2.81203C1.99203 6.83378 1.33203 6.93378 1.33203 5.50045Z"
+                                                stroke="white" stroke-width="1.2" />
+                                            <path d="M6.50586 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path d="M9.57422 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M2.33203 6.93353L3.27203 12.6935C3.48536 13.9869 3.9987 14.9335 5.90536 14.9335H9.92537C11.9987 14.9335 12.3054 14.0269 12.5454 12.7735L13.6654 6.93353"
+                                                stroke="white" stroke-width="1.2" stroke-linecap="round" />
+                                        </svg>
+                                        <span class="filter_in_basket_text">в корзину</span>
+                                        <div class="filter_in_basket_counter-container">
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_plus">
+                                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_497_299)">
+                                                        <path
+                                                            d="M7.33333 3.33333H4.66667V0.666667C4.66667 0.489856 4.59643 0.320287 4.4714 0.195262C4.34638 0.070238 4.17681 0 4 0C3.82319 0 3.65362 0.070238 3.5286 0.195262C3.40357 0.320287 3.33333 0.489856 3.33333 0.666667V3.33333H0.666667C0.489856 3.33333 0.320287 3.40357 0.195262 3.5286C0.070238 3.65362 0 3.82319 0 4C0 4.17681 0.070238 4.34638 0.195262 4.4714C0.320287 4.59643 0.489856 4.66667 0.666667 4.66667H3.33333V7.33333C3.33333 7.51014 3.40357 7.67971 3.5286 7.80474C3.65362 7.92976 3.82319 8 4 8C4.17681 8 4.34638 7.92976 4.4714 7.80474C4.59643 7.67971 4.66667 7.51014 4.66667 7.33333V4.66667H7.33333C7.51014 4.66667 7.67971 4.59643 7.80474 4.4714C7.92976 4.34638 8 4.17681 8 4C8 3.82319 7.92976 3.65362 7.80474 3.5286C7.67971 3.40357 7.51014 3.33333 7.33333 3.33333Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_497_299">
+                                                            <rect width="8" height="8" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </button>
+                                            <span class="filter_in_basket_counter" style="padding: 0;">1</span>
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_minus">
+                                                <svg width="6" height="2" viewBox="0 0 6 2" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M4.89453 1.68359H0.792969C0.611668 1.68359 0.437794 1.61157 0.309595 1.48337C0.181396 1.35518 0.109375 1.1813 0.109375 1C0.109375 0.8187 0.181396 0.644825 0.309595 0.516626C0.437794 0.388427 0.611668 0.316406 0.792969 0.316406H4.89453C5.07583 0.316406 5.24971 0.388427 5.3779 0.516626C5.5061 0.644825 5.57812 0.8187 5.57812 1C5.57812 1.1813 5.5061 1.35518 5.3779 1.48337C5.24971 1.61157 5.07583 1.68359 4.89453 1.68359Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="filter_montagebox">
+                                        <label class="filter_custom-checkbox">
+                                            <input type="checkbox" class="filter_custom-checkbox_input" />
+                                            <span class="filter_custom-checkbox_box">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="custom-checkbox_check">
+                                                    <path d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </label>  
+                                        <p class="filter_element_name"> +12 000 руб с монтажом </p>  
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_middle">
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.40375 1.20068L2.59375 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7.5957 1.20068L9.4057 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M1 4.12549C1 3.20049 1.495 3.12549 2.11 3.12549H9.89C10.505 3.12549 11 3.20049 11 4.12549C11 5.20049 10.505 5.12549 9.89 5.12549H2.11C1.495 5.12549 1 5.20049 1 4.12549Z" stroke="#8589A3" stroke-width="0.9" />
+                                                <path d="M4.87891 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M7.17969 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M1.75 5.20044L2.455 9.52044C2.615 10.4904 3 11.2004 4.43 11.2004H7.445C9 11.2004 9.23 10.5204 9.41 9.58044L10.25 5.20044" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                            </svg> 
+                                            купить в 1 клик       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.5 8.99976H1V8.72976L3.5 6.22976L5.4 8.12976C5.49368 8.22288 5.62041 8.27515 5.7525 8.27515C5.88459 8.27515 6.01132 8.22288 6.105 8.12976L9.855 4.37976C9.90186 4.33327 9.93906 4.27797 9.96445 4.21704C9.98983 4.15611 10.0029 4.09076 10.0029 4.02476C10.0029 3.95875 9.98983 3.8934 9.96445 3.83247C9.93906 3.77154 9.90186 3.71624 9.855 3.66976C9.76132 3.57663 9.63459 3.52436 9.5025 3.52436C9.37041 3.52436 9.24368 3.57663 9.15 3.66976L5.75 7.06976L3.855 5.16976C3.76132 5.07663 3.63459 5.02436 3.5025 5.02436C3.37041 5.02436 3.24368 5.07663 3.15 5.16976L1 7.31476V4.72976L3.5 2.22976L4.9 3.62976C4.99368 3.72288 5.12041 3.77515 5.2525 3.77515C5.38459 3.77515 5.51132 3.72288 5.605 3.62976L8 1.23476L9.095 2.32976C9.18915 2.42324 9.31659 2.4755 9.44927 2.47503C9.58195 2.47457 9.70901 2.42141 9.8025 2.32726C9.89599 2.2331 9.94825 2.10567 9.94778 1.97299C9.94731 1.84031 9.89415 1.71324 9.8 1.61976L8.345 0.174756C8.25132 0.0816303 8.12459 0.0293595 7.9925 0.0293595C7.86041 0.0293595 7.73368 0.0816303 7.64 0.174756L5.24 2.57476L3.845 1.17476C3.75132 1.08163 3.62459 1.02936 3.4925 1.02936C3.36041 1.02936 3.23368 1.08163 3.14 1.17476L1 3.31476V0.499756C1 0.367148 0.947322 0.239971 0.853553 0.146202C0.759785 0.0524343 0.632608 -0.000244141 0.5 -0.000244141C0.367392 -0.000244141 0.240215 0.0524343 0.146447 0.146202C0.0526784 0.239971 0 0.367148 0 0.499756V9.49976C0 9.63236 0.0526784 9.75954 0.146447 9.85331C0.240215 9.94708 0.367392 9.99976 0.5 9.99976H9.5C9.63261 9.99976 9.75979 9.94708 9.85355 9.85331C9.94732 9.75954 10 9.63236 10 9.49976C10 9.36715 9.94732 9.23997 9.85355 9.1462C9.75979 9.05243 9.63261 8.99976 9.5 8.99976Z" fill="#8589A3" />
+                                            </svg>
+                                            сравнение      
+                                        </div>
+                                    </div>
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.31 10.4048C6.14 10.4648 5.86 10.4648 5.69 10.4048C4.24 9.9098 1 7.8448 1 4.3448C1 2.7998 2.245 1.5498 3.78 1.5498C4.69 1.5498 5.495 1.9898 6 2.6698C6.505 1.9898 7.315 1.5498 8.22 1.5498C9.755 1.5498 11 2.7998 11 4.3448C11 7.8448 7.76 9.9098 6.31 10.4048Z" stroke="#8589A3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            в избранное       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element" style="color: var(--orange);">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.87459 10.3316C3.53396 10.3317 3.20728 10.1963 2.96662 9.95526L0.22153 7.21118C-0.0738435 6.91571 -0.0738435 6.43675 0.22153 6.14129C0.516999 5.84591 0.995953 5.84591 1.29142 6.14129L3.87459 8.72446L10.7086 1.89048C11.004 1.5951 11.483 1.5951 11.7785 1.89048C12.0738 2.18594 12.0738 2.6649 11.7785 2.96037L4.78256 9.95526C4.5419 10.1963 4.21523 10.3317 3.87459 10.3316Z" fill="#FF6E4A" />
+                                            </svg>
+                                            в наличии      
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_bottom">
+                                    Площадь помещения, кв.м.
+                                    <div class="filter_element_hoverbox_bottom_itembox">
+                                        <div class="filter_element_hoverbox_bottom_item active">до 23</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 25</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 33</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 51</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 62</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter_element_main">
+                        <div class="filter_element">
+                            <div class="image-container">
+                                <img class="hover-image" src="image/multi_split/AUX_AMCA-H18.png" alt="">
+                                <div class="arrow-overlay">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.12891 1.29199L17.7132 1.29199L17.7132 9.87627" stroke="white"
+                                            stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5918 16.4121L17.5918 1.41211" stroke="white" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter_element_textbox">
+                                <p class="filter_element_name">Мульти-сплит система AUX AMCA-H18/4R2 Внутренний блок кассетного типа</p>
+                                <p class="filter_element_price">38 850 руб</p>
+                            </div>
+                            <div class="filter_element_hoverbox">
+                                <div class="filter_element_hoverbox_top">
+                                    <div class="filter_in_basket" role="button" tabindex="0" data-count="0">
+                                        <svg class="filter_in_basket_icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.87232 1.60071L3.45898 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.127 1.60071L12.5403 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M1.33203 5.50045C1.33203 4.26711 1.99203 4.16711 2.81203 4.16711H13.1854C14.0054 4.16711 14.6654 4.26711 14.6654 5.50045C14.6654 6.93378 14.0054 6.83378 13.1854 6.83378H2.81203C1.99203 6.83378 1.33203 6.93378 1.33203 5.50045Z"
+                                                stroke="white" stroke-width="1.2" />
+                                            <path d="M6.50586 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path d="M9.57422 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M2.33203 6.93353L3.27203 12.6935C3.48536 13.9869 3.9987 14.9335 5.90536 14.9335H9.92537C11.9987 14.9335 12.3054 14.0269 12.5454 12.7735L13.6654 6.93353"
+                                                stroke="white" stroke-width="1.2" stroke-linecap="round" />
+                                        </svg>
+                                        <span class="filter_in_basket_text">в корзину</span>
+                                        <div class="filter_in_basket_counter-container">
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_plus">
+                                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_497_299)">
+                                                        <path
+                                                            d="M7.33333 3.33333H4.66667V0.666667C4.66667 0.489856 4.59643 0.320287 4.4714 0.195262C4.34638 0.070238 4.17681 0 4 0C3.82319 0 3.65362 0.070238 3.5286 0.195262C3.40357 0.320287 3.33333 0.489856 3.33333 0.666667V3.33333H0.666667C0.489856 3.33333 0.320287 3.40357 0.195262 3.5286C0.070238 3.65362 0 3.82319 0 4C0 4.17681 0.070238 4.34638 0.195262 4.4714C0.320287 4.59643 0.489856 4.66667 0.666667 4.66667H3.33333V7.33333C3.33333 7.51014 3.40357 7.67971 3.5286 7.80474C3.65362 7.92976 3.82319 8 4 8C4.17681 8 4.34638 7.92976 4.4714 7.80474C4.59643 7.67971 4.66667 7.51014 4.66667 7.33333V4.66667H7.33333C7.51014 4.66667 7.67971 4.59643 7.80474 4.4714C7.92976 4.34638 8 4.17681 8 4C8 3.82319 7.92976 3.65362 7.80474 3.5286C7.67971 3.40357 7.51014 3.33333 7.33333 3.33333Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_497_299">
+                                                            <rect width="8" height="8" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </button>
+                                            <span class="filter_in_basket_counter" style="padding: 0;">1</span>
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_minus">
+                                                <svg width="6" height="2" viewBox="0 0 6 2" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M4.89453 1.68359H0.792969C0.611668 1.68359 0.437794 1.61157 0.309595 1.48337C0.181396 1.35518 0.109375 1.1813 0.109375 1C0.109375 0.8187 0.181396 0.644825 0.309595 0.516626C0.437794 0.388427 0.611668 0.316406 0.792969 0.316406H4.89453C5.07583 0.316406 5.24971 0.388427 5.3779 0.516626C5.5061 0.644825 5.57812 0.8187 5.57812 1C5.57812 1.1813 5.5061 1.35518 5.3779 1.48337C5.24971 1.61157 5.07583 1.68359 4.89453 1.68359Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="filter_montagebox">
+                                        <label class="filter_custom-checkbox">
+                                            <input type="checkbox" class="filter_custom-checkbox_input" />
+                                            <span class="filter_custom-checkbox_box">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="custom-checkbox_check">
+                                                    <path d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </label>  
+                                        <p class="filter_element_name"> +12 000 руб с монтажом </p>  
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_middle">
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.40375 1.20068L2.59375 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7.5957 1.20068L9.4057 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M1 4.12549C1 3.20049 1.495 3.12549 2.11 3.12549H9.89C10.505 3.12549 11 3.20049 11 4.12549C11 5.20049 10.505 5.12549 9.89 5.12549H2.11C1.495 5.12549 1 5.20049 1 4.12549Z" stroke="#8589A3" stroke-width="0.9" />
+                                                <path d="M4.87891 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M7.17969 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M1.75 5.20044L2.455 9.52044C2.615 10.4904 3 11.2004 4.43 11.2004H7.445C9 11.2004 9.23 10.5204 9.41 9.58044L10.25 5.20044" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                            </svg> 
+                                            купить в 1 клик       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.5 8.99976H1V8.72976L3.5 6.22976L5.4 8.12976C5.49368 8.22288 5.62041 8.27515 5.7525 8.27515C5.88459 8.27515 6.01132 8.22288 6.105 8.12976L9.855 4.37976C9.90186 4.33327 9.93906 4.27797 9.96445 4.21704C9.98983 4.15611 10.0029 4.09076 10.0029 4.02476C10.0029 3.95875 9.98983 3.8934 9.96445 3.83247C9.93906 3.77154 9.90186 3.71624 9.855 3.66976C9.76132 3.57663 9.63459 3.52436 9.5025 3.52436C9.37041 3.52436 9.24368 3.57663 9.15 3.66976L5.75 7.06976L3.855 5.16976C3.76132 5.07663 3.63459 5.02436 3.5025 5.02436C3.37041 5.02436 3.24368 5.07663 3.15 5.16976L1 7.31476V4.72976L3.5 2.22976L4.9 3.62976C4.99368 3.72288 5.12041 3.77515 5.2525 3.77515C5.38459 3.77515 5.51132 3.72288 5.605 3.62976L8 1.23476L9.095 2.32976C9.18915 2.42324 9.31659 2.4755 9.44927 2.47503C9.58195 2.47457 9.70901 2.42141 9.8025 2.32726C9.89599 2.2331 9.94825 2.10567 9.94778 1.97299C9.94731 1.84031 9.89415 1.71324 9.8 1.61976L8.345 0.174756C8.25132 0.0816303 8.12459 0.0293595 7.9925 0.0293595C7.86041 0.0293595 7.73368 0.0816303 7.64 0.174756L5.24 2.57476L3.845 1.17476C3.75132 1.08163 3.62459 1.02936 3.4925 1.02936C3.36041 1.02936 3.23368 1.08163 3.14 1.17476L1 3.31476V0.499756C1 0.367148 0.947322 0.239971 0.853553 0.146202C0.759785 0.0524343 0.632608 -0.000244141 0.5 -0.000244141C0.367392 -0.000244141 0.240215 0.0524343 0.146447 0.146202C0.0526784 0.239971 0 0.367148 0 0.499756V9.49976C0 9.63236 0.0526784 9.75954 0.146447 9.85331C0.240215 9.94708 0.367392 9.99976 0.5 9.99976H9.5C9.63261 9.99976 9.75979 9.94708 9.85355 9.85331C9.94732 9.75954 10 9.63236 10 9.49976C10 9.36715 9.94732 9.23997 9.85355 9.1462C9.75979 9.05243 9.63261 8.99976 9.5 8.99976Z" fill="#8589A3" />
+                                            </svg>
+                                            сравнение      
+                                        </div>
+                                    </div>
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.31 10.4048C6.14 10.4648 5.86 10.4648 5.69 10.4048C4.24 9.9098 1 7.8448 1 4.3448C1 2.7998 2.245 1.5498 3.78 1.5498C4.69 1.5498 5.495 1.9898 6 2.6698C6.505 1.9898 7.315 1.5498 8.22 1.5498C9.755 1.5498 11 2.7998 11 4.3448C11 7.8448 7.76 9.9098 6.31 10.4048Z" stroke="#8589A3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            в избранное       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element" style="color: var(--orange);">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.87459 10.3316C3.53396 10.3317 3.20728 10.1963 2.96662 9.95526L0.22153 7.21118C-0.0738435 6.91571 -0.0738435 6.43675 0.22153 6.14129C0.516999 5.84591 0.995953 5.84591 1.29142 6.14129L3.87459 8.72446L10.7086 1.89048C11.004 1.5951 11.483 1.5951 11.7785 1.89048C12.0738 2.18594 12.0738 2.6649 11.7785 2.96037L4.78256 9.95526C4.5419 10.1963 4.21523 10.3317 3.87459 10.3316Z" fill="#FF6E4A" />
+                                            </svg>
+                                            в наличии      
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_bottom">
+                                    Площадь помещения, кв.м.
+                                    <div class="filter_element_hoverbox_bottom_itembox">
+                                        <div class="filter_element_hoverbox_bottom_item active">до 23</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 25</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 33</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 51</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 62</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter_element_main">
+                        <div class="filter_element">
+                            <div class="image-container">
+                                <img class="hover-image" src="image/multi_split/AUX_AMCA-H18.png" alt="">
+                                <div class="arrow-overlay">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.12891 1.29199L17.7132 1.29199L17.7132 9.87627" stroke="white"
+                                            stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5918 16.4121L17.5918 1.41211" stroke="white" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter_element_textbox">
+                                <p class="filter_element_name">Мульти-сплит система AUX AMCA-H18/4R2 Внутренний блок кассетного типа</p>
+                                <p class="filter_element_price">38 850 руб</p>
+                            </div>
+                            <div class="filter_element_hoverbox">
+                                <div class="filter_element_hoverbox_top">
+                                    <div class="filter_in_basket" role="button" tabindex="0" data-count="0">
+                                        <svg class="filter_in_basket_icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.87232 1.60071L3.45898 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.127 1.60071L12.5403 4.02071" stroke="white" stroke-width="1.2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M1.33203 5.50045C1.33203 4.26711 1.99203 4.16711 2.81203 4.16711H13.1854C14.0054 4.16711 14.6654 4.26711 14.6654 5.50045C14.6654 6.93378 14.0054 6.83378 13.1854 6.83378H2.81203C1.99203 6.83378 1.33203 6.93378 1.33203 5.50045Z"
+                                                stroke="white" stroke-width="1.2" />
+                                            <path d="M6.50586 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path d="M9.57422 9.60071V11.9674" stroke="white" stroke-width="1.2"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M2.33203 6.93353L3.27203 12.6935C3.48536 13.9869 3.9987 14.9335 5.90536 14.9335H9.92537C11.9987 14.9335 12.3054 14.0269 12.5454 12.7735L13.6654 6.93353"
+                                                stroke="white" stroke-width="1.2" stroke-linecap="round" />
+                                        </svg>
+                                        <span class="filter_in_basket_text">в корзину</span>
+                                        <div class="filter_in_basket_counter-container">
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_plus">
+                                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_497_299)">
+                                                        <path
+                                                            d="M7.33333 3.33333H4.66667V0.666667C4.66667 0.489856 4.59643 0.320287 4.4714 0.195262C4.34638 0.070238 4.17681 0 4 0C3.82319 0 3.65362 0.070238 3.5286 0.195262C3.40357 0.320287 3.33333 0.489856 3.33333 0.666667V3.33333H0.666667C0.489856 3.33333 0.320287 3.40357 0.195262 3.5286C0.070238 3.65362 0 3.82319 0 4C0 4.17681 0.070238 4.34638 0.195262 4.4714C0.320287 4.59643 0.489856 4.66667 0.666667 4.66667H3.33333V7.33333C3.33333 7.51014 3.40357 7.67971 3.5286 7.80474C3.65362 7.92976 3.82319 8 4 8C4.17681 8 4.34638 7.92976 4.4714 7.80474C4.59643 7.67971 4.66667 7.51014 4.66667 7.33333V4.66667H7.33333C7.51014 4.66667 7.67971 4.59643 7.80474 4.4714C7.92976 4.34638 8 4.17681 8 4C8 3.82319 7.92976 3.65362 7.80474 3.5286C7.67971 3.40357 7.51014 3.33333 7.33333 3.33333Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_497_299">
+                                                            <rect width="8" height="8" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </button>
+                                            <span class="filter_in_basket_counter" style="padding: 0;">1</span>
+                                            <button class="filter_in_basket_counter-btn filter_in_basket_counter-btn_minus">
+                                                <svg width="6" height="2" viewBox="0 0 6 2" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M4.89453 1.68359H0.792969C0.611668 1.68359 0.437794 1.61157 0.309595 1.48337C0.181396 1.35518 0.109375 1.1813 0.109375 1C0.109375 0.8187 0.181396 0.644825 0.309595 0.516626C0.437794 0.388427 0.611668 0.316406 0.792969 0.316406H4.89453C5.07583 0.316406 5.24971 0.388427 5.3779 0.516626C5.5061 0.644825 5.57812 0.8187 5.57812 1C5.57812 1.1813 5.5061 1.35518 5.3779 1.48337C5.24971 1.61157 5.07583 1.68359 4.89453 1.68359Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="filter_montagebox">
+                                        <label class="filter_custom-checkbox">
+                                            <input type="checkbox" class="filter_custom-checkbox_input" />
+                                            <span class="filter_custom-checkbox_box">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="custom-checkbox_check">
+                                                    <path d="M1.66602 2.99992L3.52802 4.80451C3.78868 5.06516 4.21002 5.06516 4.47068 4.80451L8.33268 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </label>  
+                                        <p class="filter_element_name"> +12 000 руб с монтажом </p>  
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_middle">
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.40375 1.20068L2.59375 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7.5957 1.20068L9.4057 3.01568" stroke="#8589A3" stroke-width="0.9" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M1 4.12549C1 3.20049 1.495 3.12549 2.11 3.12549H9.89C10.505 3.12549 11 3.20049 11 4.12549C11 5.20049 10.505 5.12549 9.89 5.12549H2.11C1.495 5.12549 1 5.20049 1 4.12549Z" stroke="#8589A3" stroke-width="0.9" />
+                                                <path d="M4.87891 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M7.17969 7.20068V8.97568" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                                <path d="M1.75 5.20044L2.455 9.52044C2.615 10.4904 3 11.2004 4.43 11.2004H7.445C9 11.2004 9.23 10.5204 9.41 9.58044L10.25 5.20044" stroke="#8589A3" stroke-width="0.9" stroke-linecap="round" />
+                                            </svg> 
+                                            купить в 1 клик       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.5 8.99976H1V8.72976L3.5 6.22976L5.4 8.12976C5.49368 8.22288 5.62041 8.27515 5.7525 8.27515C5.88459 8.27515 6.01132 8.22288 6.105 8.12976L9.855 4.37976C9.90186 4.33327 9.93906 4.27797 9.96445 4.21704C9.98983 4.15611 10.0029 4.09076 10.0029 4.02476C10.0029 3.95875 9.98983 3.8934 9.96445 3.83247C9.93906 3.77154 9.90186 3.71624 9.855 3.66976C9.76132 3.57663 9.63459 3.52436 9.5025 3.52436C9.37041 3.52436 9.24368 3.57663 9.15 3.66976L5.75 7.06976L3.855 5.16976C3.76132 5.07663 3.63459 5.02436 3.5025 5.02436C3.37041 5.02436 3.24368 5.07663 3.15 5.16976L1 7.31476V4.72976L3.5 2.22976L4.9 3.62976C4.99368 3.72288 5.12041 3.77515 5.2525 3.77515C5.38459 3.77515 5.51132 3.72288 5.605 3.62976L8 1.23476L9.095 2.32976C9.18915 2.42324 9.31659 2.4755 9.44927 2.47503C9.58195 2.47457 9.70901 2.42141 9.8025 2.32726C9.89599 2.2331 9.94825 2.10567 9.94778 1.97299C9.94731 1.84031 9.89415 1.71324 9.8 1.61976L8.345 0.174756C8.25132 0.0816303 8.12459 0.0293595 7.9925 0.0293595C7.86041 0.0293595 7.73368 0.0816303 7.64 0.174756L5.24 2.57476L3.845 1.17476C3.75132 1.08163 3.62459 1.02936 3.4925 1.02936C3.36041 1.02936 3.23368 1.08163 3.14 1.17476L1 3.31476V0.499756C1 0.367148 0.947322 0.239971 0.853553 0.146202C0.759785 0.0524343 0.632608 -0.000244141 0.5 -0.000244141C0.367392 -0.000244141 0.240215 0.0524343 0.146447 0.146202C0.0526784 0.239971 0 0.367148 0 0.499756V9.49976C0 9.63236 0.0526784 9.75954 0.146447 9.85331C0.240215 9.94708 0.367392 9.99976 0.5 9.99976H9.5C9.63261 9.99976 9.75979 9.94708 9.85355 9.85331C9.94732 9.75954 10 9.63236 10 9.49976C10 9.36715 9.94732 9.23997 9.85355 9.1462C9.75979 9.05243 9.63261 8.99976 9.5 8.99976Z" fill="#8589A3" />
+                                            </svg>
+                                            сравнение      
+                                        </div>
+                                    </div>
+                                    <div class="filter_element_hoverbox_middle_content">
+                                        <div class="filter_element_hoverbox_middle_element">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.31 10.4048C6.14 10.4648 5.86 10.4648 5.69 10.4048C4.24 9.9098 1 7.8448 1 4.3448C1 2.7998 2.245 1.5498 3.78 1.5498C4.69 1.5498 5.495 1.9898 6 2.6698C6.505 1.9898 7.315 1.5498 8.22 1.5498C9.755 1.5498 11 2.7998 11 4.3448C11 7.8448 7.76 9.9098 6.31 10.4048Z" stroke="#8589A3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            в избранное       
+                                        </div>
+                                        <div class="filter_element_hoverbox_middle_element" style="color: var(--orange);">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.87459 10.3316C3.53396 10.3317 3.20728 10.1963 2.96662 9.95526L0.22153 7.21118C-0.0738435 6.91571 -0.0738435 6.43675 0.22153 6.14129C0.516999 5.84591 0.995953 5.84591 1.29142 6.14129L3.87459 8.72446L10.7086 1.89048C11.004 1.5951 11.483 1.5951 11.7785 1.89048C12.0738 2.18594 12.0738 2.6649 11.7785 2.96037L4.78256 9.95526C4.5419 10.1963 4.21523 10.3317 3.87459 10.3316Z" fill="#FF6E4A" />
+                                            </svg>
+                                            в наличии      
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter_element_hoverbox_bottom">
+                                    Площадь помещения, кв.м.
+                                    <div class="filter_element_hoverbox_bottom_itembox">
+                                        <div class="filter_element_hoverbox_bottom_item active">до 23</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 25</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 33</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 51</div>
+                                        <div class="filter_element_hoverbox_bottom_item">до 62</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-controls">
+                    <button style="background-color:var(--light-white);" id="prev"><img
+                            src="image/arrow-left.svg"></button>
+                    <button style="background-color:var(--black-color);" id="next"><img
+                            src="image/arrow-right.svg"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="information_block" style="margin: 160px auto; align-items: center;">
+        <div class="message_block" >
+            <div class="message_block_text">
+                <div class="message_block_text_top">
+                    <h2 class="our_service-text-top" style="font-size: 24px; text-align: center; margin: auto;">Оставьте сообщение</h2>
+                    <h4 class="about-text_small" style="font-size: 16px;">наши специалисты свяжутся с Вами в ближайшее время для решения вопроса</h4>  
+                </div>
+                <div style="width: 460px; height: 312px;">
+                    <div class="message_block_input_block">
+                        <input type="text" id="message_block_your_name" placeholder="Ваше имя" class="search_bar-input" style="background-color: var(--white-color)">
+                    </div>
+                    <div class="message_block_input_block">
+                        <input type="text" id="message_block_phone" placeholder="Телефон" class="search_bar-input" style="background-color: var(--white-color)">
+                    </div>
+                    <textarea id="message_block_phone" maxlength="200" placeholder="Ваше сообщение" class="search_bar-textarea" style="background-color: var(--white-color)"></textarea>
+                    <div class="data_processing">
+                        <div class="orange-circle" id="toggleCircle">
+                            <div class="white-circle" id="whiteCircle"></div>
+                        </div>
+                        <h4 class="search_bar-input" style="background-color: var(--white-color); margin: auto;">Я согласен на <a href="" style="color: var(--orange); text-decoration: none;">обработку персональных данных</a></h4>   
+                    </div>
+                    <button class="send_message_button">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <div class="information_block_text" style="height: 750px;">
+            <h2 class="product-text" style="text-align: start;">Наши преимущества</h2>
+            <div class="information_block_text-table" style="height: 570px;">
+                <div class="information_block_text_box_item">
+                    <div class="information_block_text-table_imagebox">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 10.833C14.267 10.8305 13.5538 11.0704 12.9713 11.5154C12.3889 11.9604 11.97 12.5855 11.7798 13.2934C11.5896 14.0013 11.6389 14.7522 11.9198 15.4292C12.2008 16.1061 12.6978 16.6712 13.3333 17.0364V19.3972C13.3333 19.5161 13.3685 19.6323 13.4345 19.7312C13.5005 19.83 13.5944 19.9071 13.7042 19.9526C13.814 19.9981 13.9349 20.01 14.0514 19.9868C14.168 19.9636 14.2751 19.9063 14.3591 19.8222L15 19.1822L15.6408 19.8222C15.7248 19.9063 15.8319 19.9636 15.9485 19.9868C16.0651 20.01 16.186 19.9981 16.2958 19.9526C16.4056 19.9071 16.4995 19.83 16.5655 19.7312C16.6315 19.6323 16.6667 19.5161 16.6666 19.3972V17.0364C17.3022 16.6712 17.7991 16.1061 18.0801 15.4292C18.3611 14.7522 18.4103 14.0013 18.2202 13.2934C18.03 12.5855 17.611 11.9604 17.0286 11.5154C16.4462 11.0704 15.733 10.8305 15 10.833Z" fill="#FF6E4A" />
+                            <path d="M10 14.1667C9.99898 13.2887 10.2294 12.4259 10.6682 11.6654C11.1069 10.9048 11.7384 10.2734 12.4989 9.8347C13.2595 9.39602 14.1223 9.1656 15.0003 9.16668C15.8783 9.16776 16.7405 9.40029 17.5 9.84083V4.16667C17.4987 3.062 17.0593 2.00296 16.2782 1.22185C15.497 0.440735 14.438 0.00132321 13.3333 0L6.66667 0C5.562 0.00132321 4.50296 0.440735 3.72185 1.22185C2.94073 2.00296 2.50132 3.062 2.5 4.16667V14.1667C2.50132 15.2713 2.94073 16.3304 3.72185 17.1115C4.50296 17.8926 5.562 18.332 6.66667 18.3333H11.6667V17.8833C11.1426 17.4163 10.7231 16.8438 10.4359 16.2032C10.1487 15.5627 10.0001 14.8687 10 14.1667ZM6.66667 3.33333H13.3333C13.5543 3.33333 13.7663 3.42113 13.9226 3.57741C14.0789 3.73369 14.1667 3.94565 14.1667 4.16667C14.1667 4.38768 14.0789 4.59964 13.9226 4.75592C13.7663 4.9122 13.5543 5 13.3333 5H6.66667C6.44565 5 6.23369 4.9122 6.07741 4.75592C5.92113 4.59964 5.83333 4.38768 5.83333 4.16667C5.83333 3.94565 5.92113 3.73369 6.07741 3.57741C6.23369 3.42113 6.44565 3.33333 6.66667 3.33333ZM6.66667 6.66667H13.3333C13.5543 6.66667 13.7663 6.75446 13.9226 6.91074C14.0789 7.06703 14.1667 7.27899 14.1667 7.5C14.1667 7.72101 14.0789 7.93298 13.9226 8.08926C13.7663 8.24554 13.5543 8.33333 13.3333 8.33333H6.66667C6.44565 8.33333 6.23369 8.24554 6.07741 8.08926C5.92113 7.93298 5.83333 7.72101 5.83333 7.5C5.83333 7.27899 5.92113 7.06703 6.07741 6.91074C6.23369 6.75446 6.44565 6.66667 6.66667 6.66667ZM9.16667 11.6667H6.66667C6.44565 11.6667 6.23369 11.5789 6.07741 11.4226C5.92113 11.2663 5.83333 11.0543 5.83333 10.8333C5.83333 10.6123 5.92113 10.4004 6.07741 10.2441C6.23369 10.0878 6.44565 10 6.66667 10H9.16667C9.38768 10 9.59964 10.0878 9.75592 10.2441C9.9122 10.4004 10 10.6123 10 10.8333C10 11.0543 9.9122 11.2663 9.75592 11.4226C9.59964 11.5789 9.38768 11.6667 9.16667 11.6667Z" fill="#FF6E4A" />
+                        </svg>        
+                    </div>
+                    <div class="information_block_text-table_text">
+                        <p class="information_block_text_top" style="margin-top: 20px;">Профессиональная установка</p>
+                        <h4 class="information_block_text_top" style="font-size: 16px; text-transform: lowercase; font-weight: 400; color: var(--blue-gray); line-height: 100%; margin-top: 8px;">в удобное Вам время</h4>
+                    </div> 
+                </div>
+
+                <div class="information_block_text_box_item">
+                    <div class="information_block_text-table_imagebox">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_269_449)">
+                                <path d="M15.4835 1.78353L10.2627 0.0427007C10.0917 -0.0142336 9.90696 -0.0142336 9.73602 0.0427007L4.51518 1.78353C3.6851 2.05927 2.96303 2.58958 2.45155 3.29913C1.94008 4.00867 1.66521 4.86136 1.66602 5.73603V10.0002C1.66602 16.3027 9.33268 19.7835 9.66102 19.9285C9.76753 19.9759 9.88279 20.0003 9.99935 20.0003C10.1159 20.0003 10.2312 19.9759 10.3377 19.9285C10.666 19.7835 18.3327 16.3027 18.3327 10.0002V5.73603C18.3335 4.86136 18.0586 4.00867 17.5471 3.29913C17.0357 2.58958 16.3136 2.05927 15.4835 1.78353ZM13.931 8.0977L10.371 11.6577C10.2253 11.8044 10.052 11.9206 9.861 11.9997C9.67002 12.0788 9.46523 12.1192 9.25852 12.1185H9.23102C9.02009 12.1153 8.81201 12.0693 8.61936 11.9834C8.42671 11.8974 8.2535 11.7733 8.11018 11.6185L6.18852 9.61854C6.10529 9.54132 6.03872 9.44792 5.99289 9.34405C5.94706 9.24019 5.92294 9.12805 5.922 9.01453C5.92106 8.90101 5.94333 8.78849 5.98744 8.68388C6.03154 8.57927 6.09656 8.48478 6.17849 8.4062C6.26043 8.32762 6.35755 8.26661 6.46391 8.22691C6.57027 8.18721 6.68362 8.16967 6.79701 8.17535C6.91039 8.18103 7.02142 8.20982 7.12328 8.25995C7.22514 8.31008 7.31568 8.38049 7.38935 8.46687L9.25935 10.4169L12.7494 6.91687C12.9065 6.76507 13.117 6.68107 13.3355 6.68297C13.554 6.68487 13.763 6.77251 13.9175 6.92702C14.072 7.08153 14.1597 7.29054 14.1616 7.50903C14.1635 7.72753 14.0795 7.93803 13.9277 8.0952L13.931 8.0977Z" fill="#FF6E4A" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_269_449">
+                                <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>        
+                    </div>
+                    <div class="information_block_text-table_text">
+                        <p class="information_block_text_top" style="margin-top: 20px;">3 года</p>
+                        <h4 class="information_block_text_top" style="font-size: 16px; text-transform: lowercase; font-weight: 400; color: var(--blue-gray); line-height: 100%; margin-top: 8px;">Гарантия на монтаж сплит-системы</h4>
+                    </div> 
+                </div> 
+                <div class="information_block_text_box_item">
+                    <div class="information_block_text-table_imagebox">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_269_456)">
+                                <path d="M0 15.833C0.00132321 16.9377 0.440735 17.9967 1.22185 18.7778C2.00296 19.5589 3.062 19.9984 4.16667 19.9997H15.8333C16.938 19.9984 17.997 19.5589 18.7782 18.7778C19.5593 17.9967 19.9987 16.9377 20 15.833V8.33301H0V15.833ZM14.1667 12.083C14.4139 12.083 14.6556 12.1563 14.8611 12.2937C15.0667 12.431 15.2269 12.6262 15.3215 12.8547C15.4161 13.0831 15.4409 13.3344 15.3926 13.5769C15.3444 13.8193 15.2254 14.0421 15.0505 14.2169C14.8757 14.3917 14.653 14.5108 14.4105 14.559C14.1681 14.6072 13.9167 14.5825 13.6883 14.4879C13.4599 14.3932 13.2647 14.233 13.1273 14.0275C12.99 13.8219 12.9167 13.5802 12.9167 13.333C12.9167 13.0015 13.0484 12.6835 13.2828 12.4491C13.5172 12.2147 13.8351 12.083 14.1667 12.083ZM10 12.083C10.2472 12.083 10.4889 12.1563 10.6945 12.2937C10.9 12.431 11.0602 12.6262 11.1548 12.8547C11.2495 13.0831 11.2742 13.3344 11.226 13.5769C11.1777 13.8193 11.0587 14.0421 10.8839 14.2169C10.7091 14.3917 10.4863 14.5108 10.2439 14.559C10.0014 14.6072 9.75005 14.5825 9.52165 14.4879C9.29324 14.3932 9.09801 14.233 8.96066 14.0275C8.82331 13.8219 8.75 13.5802 8.75 13.333C8.75 13.0015 8.8817 12.6835 9.11612 12.4491C9.35054 12.2147 9.66848 12.083 10 12.083ZM5.83333 12.083C6.08056 12.083 6.32223 12.1563 6.5278 12.2937C6.73336 12.431 6.89357 12.6262 6.98818 12.8547C7.08279 13.0831 7.10755 13.3344 7.05931 13.5769C7.01108 13.8193 6.89203 14.0421 6.71722 14.2169C6.5424 14.3917 6.31967 14.5108 6.0772 14.559C5.83472 14.6072 5.58339 14.5825 5.35498 14.4879C5.12657 14.3932 4.93135 14.233 4.794 14.0275C4.65664 13.8219 4.58333 13.5802 4.58333 13.333C4.58333 13.0015 4.71503 12.6835 4.94945 12.4491C5.18387 12.2147 5.50181 12.083 5.83333 12.083Z" fill="#FF6E4A" />
+                                <path d="M15.8333 1.66667H15V0.833333C15 0.61232 14.9122 0.400358 14.7559 0.244078C14.5996 0.0877974 14.3877 0 14.1667 0C13.9457 0 13.7337 0.0877974 13.5774 0.244078C13.4211 0.400358 13.3333 0.61232 13.3333 0.833333V1.66667H6.66667V0.833333C6.66667 0.61232 6.57887 0.400358 6.42259 0.244078C6.26631 0.0877974 6.05435 0 5.83333 0C5.61232 0 5.40036 0.0877974 5.24408 0.244078C5.0878 0.400358 5 0.61232 5 0.833333V1.66667H4.16667C3.062 1.66799 2.00296 2.1074 1.22185 2.88852C0.440735 3.66963 0.00132321 4.72867 0 5.83333L0 6.66667H20V5.83333C19.9987 4.72867 19.5593 3.66963 18.7782 2.88852C17.997 2.1074 16.938 1.66799 15.8333 1.66667Z" fill="#FF6E4A" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_269_456">
+                                <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>        
+                    </div>
+                    <div class="information_block_text-table_text">
+                        <p class="information_block_text_top" style="margin-top: 20px;">Без выходных</p>
+                        <h4 class="information_block_text_top" style="font-size: 16px; text-transform: lowercase; font-weight: 400; color: var(--blue-gray); line-height: 100%; margin-top: 8px;">Работаем 7 дней в неделю</h4>
+                    </div> 
+                </div> 
+                <div class="information_block_text_box_item">
+                    <div class="information_block_text-table_imagebox">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_269_464)">
+                                <mask id="mask0_269_464" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                                <path d="M0 0H20V20H0V0Z" fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_269_464)">
+                                <path d="M12.5483 16.667C12.52 16.802 12.5 16.9395 12.5 17.0837C12.5 18.2345 13.4333 19.167 14.5833 19.167C15.7342 19.167 16.6667 18.2345 16.6667 17.0837C16.6667 16.9395 16.6475 16.802 16.6192 16.667H12.5483ZM3.38167 16.667C3.35333 16.802 3.33333 16.9395 3.33333 17.0837C3.33333 18.2345 4.26667 19.167 5.41667 19.167C6.5675 19.167 7.5 18.2345 7.5 17.0837C7.5 16.9395 7.48083 16.802 7.4525 16.667H3.38167ZM14.1667 10.8337V15.0003H16.6667C18.5075 15.0003 20 13.5078 20 11.667V10.8337H14.1667ZM20 9.16699V8.33366C20 6.03199 18.135 4.16699 15.8333 4.16699H14.1667V9.16699H20ZM12.5 15.0003H3.33333C1.4925 15.0003 0 13.5078 0 11.667V5.00033C0 2.69866 1.86583 0.83366 4.16667 0.83366H8.33333C10.635 0.83366 12.5 2.69866 12.5 5.00033V15.0003Z" fill="#FF6E4A" />
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_269_464">
+                                <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>     
+                    </div>
+                    <div class="information_block_text-table_text">
+                        <p class="information_block_text_top" style="margin-top: 20px;">Бесплатная доставка</p>
+                        <h4 class="information_block_text_top" style="font-size: 16px; text-transform: lowercase; font-weight: 400; color: var(--blue-gray); line-height: 100%; margin-top: 8px;">по Москве и области</h4>
+                    </div> 
+                </div> 
+                <div class="information_block_text_box_item">
+                    <div class="information_block_text-table_imagebox">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_269_478)">
+                                <path d="M17.9375 6.90327L11.6134 0.732433C11.0642 0.182433 10.2742 -0.0867336 9.5067 0.0232664L3.7667 0.808266C3.31086 0.870766 2.9917 1.29077 3.0542 1.7466C3.1167 2.20243 3.53586 2.52077 3.99336 2.4591L9.7342 1.6741C9.9892 1.6391 10.2525 1.7266 10.4434 1.91743L16.7684 8.08827C17.6392 8.9591 17.7242 10.3216 17.0375 11.2941C16.8425 10.9049 16.6017 10.5341 16.2784 10.2108L10.0492 4.0341C9.50086 3.48577 8.71836 3.2216 7.94253 3.32493L2.2017 4.10993C1.82336 4.1616 1.52836 4.4641 1.4867 4.8441L0.849197 10.6074C0.765864 11.3666 1.02753 12.1108 1.5692 12.6516L7.7492 18.7791C8.53586 19.5666 9.5817 19.9991 10.6942 19.9991H10.7084C11.8267 19.9958 12.875 19.5558 13.6609 18.7599L16.3 16.0866C17.0725 15.3041 17.4609 14.2874 17.4859 13.2633L17.9667 12.7833C19.5709 11.1583 19.5617 8.52327 17.94 6.90243L17.9375 6.90327ZM4.9992 8.33327C4.5392 8.33327 4.16586 7.95993 4.16586 7.49993C4.17086 6.40993 5.82753 6.41077 5.83253 7.49993C5.83253 7.95993 5.4592 8.33327 4.9992 8.33327Z" fill="#FF6E4A" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_269_478">
+                                <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>        
+                    </div>
+                    <div class="information_block_text-table_text">
+                        <p class="information_block_text_top" style="margin-top: 20px;">Выгодно</p>
+                        <h4 class="information_block_text_top" style="font-size: 16px; text-transform: lowercase; font-weight: 400; color: var(--blue-gray); line-height: 100%; margin-top: 8px;">Выгодная цена, регулярные Акции</h4>
+                    </div> 
+                </div> 
+                <div class="information_block_text_box_item">
+                    <div class="information_block_text-table_imagebox">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_269_485)">
+                                <path d="M14.9953 10.0083C12.2361 10.0083 9.99948 12.245 9.99948 15.0042C9.99948 17.7633 12.2361 20 14.9953 20C17.7545 20 19.9911 17.7633 19.9911 15.0042C19.9911 12.245 17.7545 10.0083 14.9953 10.0083ZM17.9328 14.5925L15.5111 17.0142C15.1961 17.3292 14.7786 17.5017 14.3336 17.5017H14.332C13.887 17.5017 13.4695 17.3275 13.1553 17.0133L12.0686 15.9267C11.7436 15.6017 11.7436 15.0742 12.0686 14.7492C12.3936 14.4242 12.9211 14.4242 13.2461 14.7492L14.3336 15.8367L16.7553 13.415C17.0803 13.09 17.6078 13.09 17.9328 13.415C18.2578 13.74 18.2578 14.2675 17.9328 14.5925ZM16.6611 0H3.33781C1.49865 0 0.0078125 1.49083 0.0078125 3.33083V4.16333H19.992V3.33083C19.992 1.49167 18.5011 0 16.6611 0ZM14.9311 8.3425C16.9236 8.3425 18.7703 9.22167 19.9911 10.6083V5.82917H0.0078125V11.6575C0.0078125 13.4967 1.49865 14.9883 3.33865 14.9883L8.27031 15.0042C8.27031 11.325 11.2528 8.3425 14.932 8.3425H14.9311ZM4.58698 11.6575C3.89698 11.6575 3.33781 11.0983 3.33781 10.4083C3.33781 9.71833 3.89698 9.15917 4.58698 9.15917C5.27698 9.15917 5.83615 9.71833 5.83615 10.4083C5.83615 11.0983 5.27698 11.6575 4.58698 11.6575Z" fill="#FF6E4A" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_269_485">
+                                <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>        
+                    </div>
+                    <div class="information_block_text-table_text">
+                        <p class="information_block_text_top" style="margin-top: 20px;">Удобно оплачивать</p>
+                        <h4 class="information_block_text_top" style="font-size: 16px; text-transform: lowercase; font-weight: 400; color: var(--blue-gray); line-height: 100%; margin-top: 8px;">Наличный и безналичный расчет, кассовый чек</h4>
+                    </div> 
+                </div>    
+            </div>    
+        </div> 
+    </section>
+
+    <section name="our_product" class="product" style="height: 940px; width: 1280px; margin: 0 auto;">
+        <div class="our_product" style="width: 100%;  padding: 0; gap: 40px;">
+            <h2 class="product-text">
+                Наш ассортимент
+            </h2> 
+            <h4 class="about-text_small" style="margin: 0;">
+                В каталоге интернет-магазина компании «Атмосфера-Маркет» представлены к продаже мульти сплит-системы. Подробно характеристики каждой модели перечислены в товарной карточке. За помощью в подборе устройства вы можете обратиться к консультанту компании. Он предложит оптимальное решение, полностью соответствующее назначению и запланированному бюджету
+            </h4>       
+        </div>
+
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="image/multi-split_systems.png" class="slide_photo">
+                        <h4 class="slide_text">
+                            Мульти-сплит<br>системы
+                        </h4>
+                        <button class="slider_button">
+                            <img src="image/tilted_arrow.svg">
+                        </button>
+                    </div>
+                    <div class="slide">
+                        <img src="image/conditioner.png" class="slide_photo">
+                        <h4 class="slide_text">
+                            Настенные<br>кондиционеры
+                        </h4>
+                        <button class="slider_button">
+                            <img src="image/tilted_arrow.svg">
+                        </button>
+                    </div>
+
+                    <div class="slide">
+                        <img src="image/cassette_conditioners.png" class="slide_photo">
+                        <h4 class="slide_text">
+                            Кассетные<br>кондиционеры
+                        </h4>
+                        <button class="slider_button">
+                            <img src="image/tilted_arrow.svg">
+                        </button>
+                    </div>
+                    <div class="slide">
+                        <img src="image/ducted_conditioners.png" class="slide_photo">
+                        <h4 class="slide_text">
+                            Канальные<br>кондиционеры
+                        </h4>
+                        <button class="slider_button">
+                            <img src="image/tilted_arrow.svg">
+                        </button>
+                    </div>
+                    <div class="slide">
+                        <img src="image/floor-to-ceiling_conditioners.png" class="slide_photo">
+                        <h4 class="slide_text">
+                            Напольно-подпотолочные<br>кондиционеры
+                        </h4>
+                        <button class="slider_button">
+                            <img src="image/tilted_arrow.svg">
+                        </button>
+                    </div>
+                    <div class="slide">
+                        <img src="image/column_conditioners.png" class="slide_photo">
+                        <h4 class="slide_text">
+                            Колонные<br>кондиционеры<br>
+                        </h4>
+                        <button class="slider_button">
+                            <img src="image/tilted_arrow.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls" >
+                <button style="background-color:var(--light-white);" class="prev_button" id="prev"><img src="image/arrow-left.svg"></button>
+                <button style="background-color:var(--black-color);" class="next_button" id="next"><img src="image/arrow-right.svg"></button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="multi-split_systems_bottom_text" style="margin: 0 auto 160px;">
+        <h4 class="slide_text" style="width: var(--normal-width); text-align: center; margin: 0; height: fit-content;">Отличительные особенности мульти сплит-систем</h4>
+        <h4 class="slide_conditioners_text" style="width: var(--normal-width); text-align: center; margin: 0;">Данное оборудование позволяет обеспечить кондиционирование во всех комнатах, не загромождая фасад, снизить шумовой фон, разместив наружный блок на удалении от большинства помещений, уменьшить стоимость обслуживания и расходы на <br> эксплуатацию, использовать кассетные и канальные блоки, не влияющие на эстетику интерьеров <br>
+            Узнайте больше о мульти сплит-системах у менеджера компании <a href="">https://atmosfera-market.ru/about/contacts/</a> 
+        </h4>
+        <h4 class="slide_conditioners_text" style="width: var(--normal-width); text-align: center; margin: 0;">
+            Компания «Атмосфера-Маркет» специализируется на продаже различных кондиционеров, в том числе предлагает купить устройства данного типа по конкурентоспособной цене. Мы реализуем высокотехнологичные изделия и оказываем услуги по монтажу и подключению под ключ в Москве и Московской области   
+        </h4>
+        <h4 class="slide_conditioners_text" style="width: var(--normal-width); text-align: center; margin: 0;">
+            В каталоге интернет-магазина компании «Атмосфера-Маркет» представлены к продаже мульти сплит-системы: <br> - Бытовые, промышленные, полупромышленные; <br> - В полном комплекте, а также по отдельности внутренние и внешние блоки; <br> - Рассчитанные на помещения размером от 15 до 200 кв.м.; <br> - С мощностью обогрева до 27 кВт; <br> - С мощностью охлаждения от 1.5 до 22 кВт; <br> - Для разных видов установки: настенные, напольные, консольные, канальные, кассетные и напольно-потолочные; <br> - Для подключения от двух до девяти внутренних блоков; <br> - С управлением температурой и потоками воздуха через пульт ДУ, или смартфона через Wi-Fi.    
+        </h4> 
+    </section>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_left">
+                <img src="image/Logo.png" style="width: 180px; height: 40px;">
+                <div class="footer_left_text">
+                    <div class="footer_contact">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.6467 12.2202C14.6467 12.4602 14.5934 12.7068 14.4801 12.9468C14.3667 13.1868 14.2201 13.4135 14.0267 13.6268C13.7001 13.9868 13.3401 14.2468 12.9334 14.4135C12.5334 14.5802 12.1001 14.6668 11.6334 14.6668C10.9534 14.6668 10.2267 14.5068 9.46006 14.1802C8.6934 13.8535 7.92673 13.4135 7.16673 12.8602C6.40006 12.3002 5.6734 11.6802 4.98006 10.9935C4.2934 10.3002 3.6734 9.5735 3.12006 8.8135C2.5734 8.0535 2.1334 7.2935 1.8134 6.54016C1.4934 5.78016 1.3334 5.0535 1.3334 4.36016C1.3334 3.90683 1.4134 3.4735 1.5734 3.0735C1.7334 2.66683 1.98673 2.2935 2.34006 1.96016C2.76673 1.54016 3.2334 1.3335 3.72673 1.3335C3.9134 1.3335 4.10006 1.3735 4.26673 1.4535C4.44006 1.5335 4.5934 1.6535 4.7134 1.82683L6.26006 4.00683C6.38006 4.1735 6.46673 4.32683 6.52673 4.4735C6.58673 4.6135 6.62006 4.7535 6.62006 4.88016C6.62006 5.04016 6.5734 5.20016 6.48006 5.3535C6.3934 5.50683 6.26673 5.66683 6.10673 5.82683L5.60006 6.3535C5.52673 6.42683 5.4934 6.5135 5.4934 6.62016C5.4934 6.6735 5.50006 6.72016 5.5134 6.7735C5.5334 6.82683 5.5534 6.86683 5.56673 6.90683C5.68673 7.12683 5.8934 7.4135 6.18673 7.76016C6.48673 8.10683 6.80673 8.46016 7.1534 8.8135C7.5134 9.16683 7.86006 9.4935 8.2134 9.7935C8.56006 10.0868 8.84673 10.2868 9.0734 10.4068C9.10673 10.4202 9.14673 10.4402 9.1934 10.4602C9.24673 10.4802 9.30006 10.4868 9.36006 10.4868C9.4734 10.4868 9.56006 10.4468 9.6334 10.3735L10.1401 9.8735C10.3067 9.70683 10.4667 9.58016 10.6201 9.50016C10.7734 9.40683 10.9267 9.36016 11.0934 9.36016C11.2201 9.36016 11.3534 9.38683 11.5001 9.44683C11.6467 9.50683 11.8001 9.5935 11.9667 9.70683L14.1734 11.2735C14.3467 11.3935 14.4667 11.5335 14.5401 11.7002C14.6067 11.8668 14.6467 12.0335 14.6467 12.2202Z" stroke="white" stroke-width="1.6" stroke-miterlimit="10" />
+                        </svg>
+                        <h4 class="footer_text">+7 (920) 831-28-88</h4>
+                    </div>
+                    <div class="footer_contact">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.6667 0.666504H3.33333C2.4496 0.667562 1.60237 1.01909 0.97748 1.64398C0.352588 2.26888 0.00105857 3.11611 0 3.99984L0 11.9998C0.00105857 12.8836 0.352588 13.7308 0.97748 14.3557C1.60237 14.9806 2.4496 15.3321 3.33333 15.3332H12.6667C13.5504 15.3321 14.3976 14.9806 15.0225 14.3557C15.6474 13.7308 15.9989 12.8836 16 11.9998V3.99984C15.9989 3.11611 15.6474 2.26888 15.0225 1.64398C14.3976 1.01909 13.5504 0.667562 12.6667 0.666504ZM3.33333 1.99984H12.6667C13.0659 2.00062 13.4557 2.12085 13.786 2.34504C14.1163 2.56923 14.3719 2.88714 14.52 3.25784L9.41467 8.36384C9.03895 8.73805 8.53028 8.94815 8 8.94815C7.46972 8.94815 6.96105 8.73805 6.58533 8.36384L1.48 3.25784C1.6281 2.88714 1.88374 2.56923 2.21403 2.34504C2.54432 2.12085 2.93414 2.00062 3.33333 1.99984ZM12.6667 13.9998H3.33333C2.8029 13.9998 2.29419 13.7891 1.91912 13.4141C1.54405 13.039 1.33333 12.5303 1.33333 11.9998V4.99984L5.64267 9.3065C6.26842 9.93067 7.11617 10.2812 8 10.2812C8.88383 10.2812 9.73158 9.93067 10.3573 9.3065L14.6667 4.99984V11.9998C14.6667 12.5303 14.456 13.039 14.0809 13.4141C13.7058 13.7891 13.1971 13.9998 12.6667 13.9998Z" fill="white" />
+                        </svg>
+                        <h4 class="footer_text">msk.atmosfera@yandex.ru</h4>
+                    </div>
+                    <div class="footer_contact">
+                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.9931 0.666504H5.99994C8.18582 0.666504 10.6224 1.94486 11.2587 4.74365C11.9771 7.91178 10.0462 10.6456 8.16693 12.4526L8.16498 12.4546C7.56186 13.0405 6.78156 13.3335 5.99994 13.3335C5.2188 13.3335 4.43786 13.0403 3.82709 12.4526H3.82611C1.94739 10.6461 0.0163551 7.90579 0.734314 4.73779C1.37019 1.93992 3.81251 0.666594 5.9931 0.666504ZM5.99994 3.27295C4.56383 3.27298 3.40033 4.43741 3.40033 5.87354C3.40053 7.30949 4.56395 8.47311 5.99994 8.47314C7.43596 8.47314 8.59935 7.30951 8.59955 5.87354C8.59955 4.43739 7.43608 3.27295 5.99994 3.27295Z" stroke="white" />
+                        </svg>
+                        <h4 class="footer_text" style="line-height: 120%;">г. Москва, Михайловский пр-д, 3, стр.66, оф.328</h4>
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: row; gap: 16px;">
+                    <button class="footer_button">
+                        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.8936 13.24C4.05997 13.24 0.161919 8.55636 0 0.760254H3.42429C3.53823 6.48139 6.05997 8.90718 8.05997 9.40493V0.760254H11.2834V5.69579C13.2564 5.48289 15.3313 3.23402 16.03 0.760254H19.2534C18.7196 3.35396 17.1304 5.60883 14.8666 6.98214C17.3943 8.23851 19.2624 10.5174 20 13.24H16.4528C15.7841 10.8472 13.7451 9.09009 11.2804 8.77824V13.24H10.8936Z" fill="#303030" />
+                        </svg>
+                    </button>
+                    <button class="footer_button">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.5817 3.15508C19.3517 2.28924 18.6742 1.60675 17.8133 1.37508C16.2542 0.955078 10 0.955078 10 0.955078C10 0.955078 3.74583 0.955078 2.18583 1.37508C1.32583 1.60675 0.648333 2.28841 0.418333 3.15508C0 4.72508 0 8.00008 0 8.00008C0 8.00008 0 11.2751 0.418333 12.8451C0.648333 13.7109 1.32583 14.3934 2.18667 14.6251C3.74583 15.0451 10 15.0451 10 15.0451C10 15.0451 16.2542 15.0451 17.8142 14.6251C18.6742 14.3934 19.3517 13.7117 19.5825 12.8451C20 11.2751 20 8.00008 20 8.00008C20 8.00008 20 4.72508 19.5817 3.15508ZM7.955 10.9742V5.02591L13.1817 8.00008L7.955 10.9742Z" fill="#303030" />
+                        </svg>
+                    </button>
+                </div>
+                
+            </div> 
+            <div class="footer_right">
+                <div class="footer_right_first_column">
+                    <div class="footer_right_first_column" style="width: 136px; height: 92px;">
+                        <h4 class="footer_text orange-color medium_weight">Каталог</h4>
+                        <div style="height: 48px; display: flex; justify-content: space-between; flex-direction: column;">
+                            <h4 class="footer_text">VRV/VRF системы</h4>  
+                            <h4 class="footer_text">Кондиционеры</h4>  
+                        </div>
+                    </div>
+                    <div class="footer_right_first_column" style="width: 184px; height: 124px;">
+                        <h4 class="footer_text orange-color medium_weight">Наши предложения</h4>
+                        <div style="height: 80px; display: flex; justify-content: space-between; flex-direction: column;">
+                            <h4 class="footer_text">Новинки</h4>  
+                            <h4 class="footer_text">Популярные товары</h4>
+                            <h4 class="footer_text">Рекомендуемые товары</h4>  
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_right_second_column">
+                    <h4 class="footer_text orange-color medium_weight">Помощь и сервисы</h4>
+                        <div style="height: 240px; display: flex; justify-content: space-between; flex-direction: column;">
+                            <h4 class="footer_text">Главная</h4>  
+                            <h4 class="footer_text">Акции</h4>
+                            <h4 class="footer_text">Услуги</h4>  
+                            <h4 class="footer_text">Бренды</h4>
+                            <h4 class="footer_text">Доставка</h4>
+                            <h4 class="footer_text">Вопрос ответ</h4>
+                            <h4 class="footer_text">Каталог</h4>
+                            <h4 class="footer_text">Контакты</h4>
+                        </div>    
+                </div>   
+            </div>          
+        </div>
+    </footer>
+
+    <script src="scripts/multi_split_filter.js"></script>
+    <script src="scripts/multi_split_filter_main.js"></script>
+    <script src="scripts/multi_split_filter_first.js"></script>
+    <script src="scripts/range_slider.js"></script>
+    <script src="scripts/filter.js"></script>
+    <script src="scripts/in_basket.js"></script>
+    <script src="scripts/room_area.js"></script>
+    <script src="scripts/filter_block_visible.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/toggle.js"></script>
+</body>
